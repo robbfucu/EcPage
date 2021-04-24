@@ -3,14 +3,15 @@
         <div class="row">
             <div class="col-lg-3 col-md-4">
                 <a href="./" class="logo">
-                    <img src="./images/ici_logo.png" alt="">
+                    <!-- <img src="./images/ici_logo.png" alt=""> -->
+                    <img src="./images/LOGO_ICI.png" alt="" style="max-width: 300px">
                 </a>
-                <p class="topmargin_30">
+                <p class="kanit text-uppercase bold highlight fontsize_14" style="text-align: justify">
                     Estamos comprometidos con la calidad en nuestros servicios con la
                     convicción de dejar un trabajo que exceda las expectativas de nuestros clientes.
                 </p>
-                <div class="page_social_icons greylinks">
-                    <a class="social-icon border-icon rounded-icon soc-facebook" href="#" title="Facebook"></a>
+                <div class="page_social_icons">
+                    <a class="social-icon border-icon rounded-icon soc-facebook" href="https://www.facebook.com/ICI-Industrial-112625356776918" title="Facebook"></a>
                 </div>
             </div>
 
@@ -73,9 +74,7 @@
                             </div>
                             <div class="media-body media-middle">
                                 <p class="kanit text-uppercase bold highlight fontsize_14">
-                                    Agenda una llamada con
-                                    <br>
-                                    <span class="fontsize_18 black">nuestros asesores</span>
+                                    Agenda una llamada con nuestros asesores
                                 </p>
                             </div>
                         </div>
@@ -90,9 +89,7 @@
                             </div>
                             <div class="media-body media-middle">
                                 <p class="kanit text-uppercase bold highlight fontsize_14">
-                                    Cotiza tu
-                                    <br>
-                                    <span class="fontsize_18 black">proyecto</span>
+                                    Cotiza tu proyecto
                                 </p>
                             </div>
                         </div>
@@ -106,9 +103,7 @@
                             </div>
                             <div class="media-body media-middle">
                                 <p class="kanit text-uppercase bold highlight fontsize_14">
-                                    Agenda una reunion
-                                    <br>
-                                    <span class="fontsize_18 black">presencial</span>
+                                    Agenda una reunion presencial
                                 </p>
                             </div>
                         </div>
@@ -123,8 +118,6 @@
                             <div class="media-body media-middle">
                                 <p class="kanit text-uppercase bold highlight fontsize_14">
                                     Tu informacion esta segura &amp; protegida
-                                    <br>
-                                    <span class="fontsize_18 black">garantia de privacidad</span>
                                 </p>
                             </div>
                         </div>

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <title>OilDrop</title>
+    <meta charset="utf-8">
+    <!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css" id="color-switcher-link">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+    <!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+    <div class="preloader">
+        <div class="preloader_image"></div>
+    </div>
+
+
+    <!-- search modal -->
+    <div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+        <div class="widget widget_search">
+            <form method="get" class="searchform form-inline" action="/">
+                <div class="form-group">
+                    <input type="text" value="" name="search" class="form-control" placeholder="Search keyword"
+                        id="modal-search-input">
+                </div>
+                <button type="submit" class="theme_button">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- wrappers for visual page editor and boxed version of template -->
+    <div id="canvas">
+        <div id="box_wrapper">
+
+            <!-- template sections -->
+
+            <section
+                class="page_toplogo cs table_section table_section_md section_padding_top_30 section_padding_bottom_30">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-3 text-center text-md-left">
+                            <a href="./" class="logo">
+                                <img src="images/logo-light.png" alt="">
+                                <span class="logo_text">
+                                    <span class="highlight kanit bold">Oildrop
+                                        <br> global</span>
+                                    <span class="small-text">test with the best</span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-lg-3 text-center text-md-left hidden-md">
+                            <div class="media thin_teaser inline-block">
+                                <div class="media-left media-middle">
+                                    <div class="teaser_icon border_icon round">
+                                        <i class="icon-map-marker highlight"></i>
+                                    </div>
+                                </div>
+                                <div class="media-body media-middle">
+                                    <p class="kanit text-uppercase bold fontsize_14">
+                                        Lightning Point Drive
+                                        <span class="highlight fontsize_18">27/2</span>
+                                        <br> Los angeles,
+                                        <span class="highlight">Inc -
+                                            <span class="fontsize_18">4502</span>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 text-center text-md-left">
+                            <div class="media thin_teaser inline-block">
+                                <div class="media-left media-middle">
+                                    <div class="teaser_icon border_icon round">
+                                        <i class="icon-phone highlight"></i>
+                                    </div>
+                                </div>
+                                <div class="media-body media-middle">
+                                    <p class="kanit text-uppercase bold fontsize_14">
+                                        have a question call now
+                                        <br>
+                                        <span class="fontsize_18 highlight">1 (800) 300 2214</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 text-center text-md-left">
+                            <a href="#" class="theme_button color1">request a call back free</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <header
+                class="page_header cs main_color2 bordered_items columns_padding_0 toggle_menu_left not_hide_menuitems with_top_border">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-right">
+                            <div class="menu-container">
+                                <!-- main nav start -->
+                                <nav class="mainmenu_wrapper">
+                                    <ul class="mainmenu nav sf-menu">
+                                        <li class="active">
+                                            <a href="index.html">Inicio</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="about.html">QUIÉNES SOMOS</a>
+                                        </li>
+                                        <li>
+                                            <a href="services.html">PRODUCTOS</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="services.html">MARCAS</a>
+                                                </li>
+                                                <li>
+                                                    <a href="service-single.html">APLICACIONES</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">SERVICIOS</a>
+                                        </li>
+                                        <!-- eof features -->
+
+                                        <!-- blog -->
+                                        <li>
+                                            <a href="blog-right.html">NOVEDADES</a>
+                                        </li>
+                                        <!-- eof blog -->
+
+                                        <!-- contacts -->
+                                        <li>
+                                            <a href="contact.html">Contáctanos</a>
+                                        </li>
+                                        <!-- eof contacts -->
+                                        <li>
+                                            <span>
+                                                LOGO
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <!-- eof main nav -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="page_breadcrumbs ls ms ms_dark section_padding_25">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h1 class="highlight2 bold bottommargin_5">ICI INDUSTRIAL</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ls section_padding_top_50 section_padding_bottom_145">
+                <div class="container">
+                    <div class="row columns_padding_25">
+                        <div class="col-md-3">
+                            <img src="./images/inge.png" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <p class="entry-excerpt highlight2 topmargin_40 bottommargin_30">
+                                <a href="">Es una compañía dedicada a la automatización de procesos
+                                    industriales, con amplia experiencia en instrumentación de campo.
+                                    Integramos a los mejores fabricantes para suministro de refaccionamiento
+                                    para sus procesos y equipos de control.</a>
+                            </p>
+                            <p>
+                                Estamos comprometidos con la calidad en nuestros servicios con la convicción
+                                de dejar un trabajo que exceda las expectativas de nuestros clientes.
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./images/inge.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h1 class="highlight2 bold bottommargin_5">
+                                FUNDACION ICI INDUSTRIAL
+                            </h1>
+                            <h4 class="highlight2">
+                                Diseñando sistemas autónomos eficientes para los clientes
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="row topmargin_10 bottommargin_30">
+                        <p class="entry-excerpt highlight2 topmargin_5">
+                            Fundada en febrero del 2008, con la oportunidad de integrar
+                            equipos industriales de alta calidad, con marcas reconocidas
+                            en el mercado, diseñando sistemas autónomos eficientes para
+                            los clientes. En la actualidad ICI Industrial ha desarrollado
+                            proyectos llave en mano, integrando las mejores tecnologías en el
+                            mercado de petróleo y gas. Además de contar con un área de ventas
+                            especialistas en las marcas que representamos, ofreciendo al cliente,
+                            el mejor producto para controlar, monitorear y medir su proceso.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="row columns_padding_0 topmargin_60">
+                        <div class="col-md-6 col-lg-5">
+                            <p class="entry-excerpt highlight2 topmargin_5">
+                                We’re always interested in new projects, big or small. Please don’t hesitate to get in
+                                touch with us regarding your project.
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-lg-5 col-lg-offset-1">
+                            <p>
+                                If you want to contact us about any issue please call
+                                <span class="kanit fontsize_18 highlight bold">1 (800) 300 2214</span> or
+                                <a href="#" class="bold highlight underlined">send us an email</a>. If you would like to
+                                submit a proposal for consideration simply
+                                <a href="#" class="bold highlight underlined">get a quote</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ls ms section_padding_145">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="with_padding text-center cs main_color2 with_bottom_border">
+                                <span class="image_icon">
+                                    <img src="./images/icon1.png" alt="">
+                                </span>
+                                <h3 class="highlight medium">Our commitment</h3>
+                                <div class="border-paragraphs middle-borders bold bottommargin_0 greylinks">
+                                    <p>
+                                        <a href="#">Ambition: to become the responsible energy major</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Protecting people</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Responding to Environmental Challenges</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Helping to foster shared
+                                            <br> development</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="with_padding text-center cs main_color2 with_bottom_border">
+                                <span class="image_icon">
+                                    <img src="./images/icon2.png" alt="">
+                                </span>
+                                <h3 class="highlight medium">Our group</h3>
+                                <div class="border-paragraphs middle-borders bold bottommargin_0 greylinks">
+                                    <p>
+                                        <a href="#">Ambition</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Thumbnail</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Worldwide Presence</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Organization</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Corporate Governance</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="with_padding text-center cs main_color2 with_bottom_border">
+                                <span class="image_icon">
+                                    <img src="./images/icon3.png" alt="">
+                                </span>
+                                <h3 class="highlight medium">Our expertise</h3>
+                                <div class="border-paragraphs middle-borders bold bottommargin_0 greylinks">
+                                    <p>
+                                        <a href="#">Explore and produce</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Transform and develop</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Ship and market</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Projects &amp; Achievements</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Ship and market</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cs main_color2 parallax page_info section_padding_bottom_40 section_padding_top_65">
+                <div class="container">
+                    <div class="row columns_margin_bottom_30">
+                        <div class="col-md-3 col-sm-6 text-center text-sm-left">
+                            <div class="media thin_teaser inline-block">
+                                <div class="media-left media-middle">
+                                    <div class="teaser_icon border_icon round">
+                                        <i class="icon-globe black"></i>
+                                    </div>
+                                </div>
+                                <div class="media-body media-middle">
+                                    <p class="kanit text-uppercase bold black fontsize_14">
+                                        <span class="fontsize_18 highlight">Expanding Provider</span>
+                                        <br> Of Industrial Solutions
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 text-center text-sm-left">
+                            <div class="media thin_teaser inline-block">
+                                <div class="media-left media-middle">
+                                    <div class="teaser_icon border_icon round">
+                                        <i class="icon-certificate black"></i>
+                                    </div>
+                                </div>
+                                <div class="media-body media-middle">
+                                    <p class="kanit text-uppercase bold black fontsize_14">
+                                        <span class="fontsize_18 highlight">Global Certificate</span>
+                                        <br> ISO 9001:2015
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 text-center text-sm-left">
+                            <div class="media thin_teaser inline-block">
+                                <div class="media-left media-middle">
+                                    <div class="teaser_icon border_icon round">
+                                        <i class="icon-award black"></i>
+                                    </div>
+                                </div>
+                                <div class="media-body media-middle">
+                                    <p class="kanit text-uppercase bold black fontsize_14">
+                                        <span class="fontsize_18 highlight">Award Winning</span>
+                                        <br> Solution Of The Year
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 text-center text-sm-left">
+                            <div class="media thin_teaser inline-block">
+                                <div class="media-left media-middle">
+                                    <div class="teaser_icon border_icon round">
+                                        <i class="icon-check black"></i>
+                                    </div>
+                                </div>
+                                <div class="media-body media-middle">
+                                    <p class="kanit text-uppercase bold black fontsize_14">
+                                        <span class="fontsize_18 highlight">Leading Provider</span>
+                                        <br> of gas &amp; oil industry
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ls section_padding_30">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="owl-carousel partners-carousel" data-responsive-lg="6" data-responsive-md="5"
+                                data-responsive-sm="3" data-responsive-xs="2" data-margin="0">
+                                <a href="">
+                                    <img src="./images/partners/1.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="./images/partners/2.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="./images/partners/3.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="./images/partners/4.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="./images/partners/5.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="./images/partners/6.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                class="page_copyright cs main_color2 table_section section_padding_top_30 section_padding_bottom_30">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 text-center">
+                            <p class="bold fontsize_12 text-uppercase kanit">Oildrop global - test with the best &copy;
+                                2016.
+                                <span class="black">Created with</span>
+                                <a href="http://modernwebtemplates.com">
+                                    <i class="icon-heart highlight fontsize_14"></i> by MWTemplates</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <!-- eof #box_wrapper -->
+    </div>
+    <!-- eof #canvas -->
+
+    <script src="js/compressed.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

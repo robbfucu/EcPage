@@ -21,4 +21,8 @@ Route::get('/contact.html', function () {
     return view('contact');
 });
 
+Route::get('/about.html', function () {
+    return view('about');
+});
+
 

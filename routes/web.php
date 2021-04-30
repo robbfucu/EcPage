@@ -25,4 +25,7 @@ Route::get('/about.html', function () {
     return view('about');
 });
 
+Route::get('/services.html', function () {
+    return view('services');
+});
 

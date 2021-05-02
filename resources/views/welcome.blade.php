@@ -86,18 +86,6 @@
             </section>
 
             <header class="page_header cs main_color2 theme_header bordered_items floating_logo table_section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 col-lg-3">
-                            <a href="./" class="logo">
-                                <img src="images/logo.png" alt="">
-                                <span class="logo_text">
-                                    <span class="highlight kanit bold">Oildrop
-                                        <br> global</span>
-                                    <span class="small-text">test with the best</span>
-                                </span>
-                            </a>
-                        </div>
                         <div class="col-md-8 col-lg-9 text-right">
                             <!-- main nav start -->
                             <nav class="mainmenu_wrapper">
@@ -133,9 +121,14 @@
 
                                         <!-- contacts -->
                                         <li>
-                                            <a href="contact.html">Contáctanos</a>
+                                            <a href="contact.html">Contacto</a>
                                         </li>
                                         <!-- eof contacts -->
+                                        <li>
+                                            <span>
+                                                LOGO
+                                            </span>
+                                        </li>
                                     </ul>
                                 </nav>
                             <!-- eof main nav -->
@@ -249,10 +242,15 @@
                         </div>
                         <div class="col-md-6">
                             <p class="entry-excerpt highlight2 bottommargin_30">
-                                <a href="">We help interesting companies create and improve industry products and services through long lasting and mutually rewarding relationships.</a>
+                                <a href="">
+                                    Excelencia en el servicio de ingeniería y ventas.
+                                </a>
                             </p>
                             <p>
-                                We work with our partners to streamline project plans that don’t just deliver on product perfection, but also delivers on time – crucial to success in a highly competitive market where every day counts.
+                                ICI Industrial es una compañía dedicada a la automatización de procesos industriales,
+                                con amplia experiencia en instrumentación de campo. Somos una empresa comprometida con
+                                la calidad en nuestros servicios con la convicción de dejar un trabajo que exceda las
+                                expectativas de nuestros clientes.
                             </p>
                         </div>
                         <div class="col-md-3">

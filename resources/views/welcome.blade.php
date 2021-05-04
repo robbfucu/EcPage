@@ -142,7 +142,7 @@
 
             <section class="intro_section page_mainslider cs">
                 <div class="flexslider">
-                    <img src="images/intro_person.png" alt="" class="slide-person visible-lg-block to_animate" data-animation="fadeInRight">
+                    <img src="images/engineer.png" alt="" class="slide-person visible-lg-block to_animate" data-animation="fadeInRight">
                     <ul class="slides">
                         <li>
                             <img src="images/intro_bg.png" alt="" class="slide-bg">
@@ -152,14 +152,14 @@
                                         <div class="slide_description_wrapper">
                                             <div class="slide_description">
                                                 <div class="intro-layer">
-                                                    <p class="text-uppercase bold fontsize_14 highlight kanit">
-                                                        Producing the world's
-                                                    </p>
                                                     <h3 class="bold big">
-                                                        Vital oil and natural
-                                                        <br> gas resources
+                                                    DISEÑAMOS
                                                     </h3>
-                                                    <p class="bold">See our commitment to safety and sustainability.</p>
+                                                    <p class="bold">
+                                                        Tableros de Control para diferentes procesos,
+                                                        con capacidad de expansión a nuevas tecnologías
+                                                        en navegación web.
+                                                    </p>
                                                 </div>
                                             </div>
                                             <!-- eof .slide_description -->
@@ -179,14 +179,10 @@
                                         <div class="slide_description_wrapper">
                                             <div class="slide_description">
                                                 <div class="intro-layer">
-                                                    <p class="text-uppercase bold fontsize_14 highlight kanit">
-                                                        Our projects worldwide
-                                                    </p>
                                                     <h3 class="bold big">
-                                                        Discover our most
-                                                        <br> successful projects
+                                                    ACTUALIZAMOS
                                                     </h3>
-                                                    <p class="bold">To meet the growing worldwide demand for energy while preparing for the future.</p>
+                                                    <p class="bold">Motores de gas para mejorar su rendimiento.</p>
                                                 </div>
                                             </div>
                                             <!-- eof .slide_description -->
@@ -206,14 +202,13 @@
                                         <div class="slide_description_wrapper">
                                             <div class="slide_description">
                                                 <div class="intro-layer">
-                                                    <p class="text-uppercase bold fontsize_14 highlight kanit">
-                                                        Providing for today
-                                                    </p>
                                                     <h3 class="bold big">
-                                                        Future technologies
-                                                        <br> and innovations
+                                                    UNA BUJÍA PARA TODOS
                                                     </h3>
-                                                    <p class="bold">Discover how Oildrop produces the oil and gas essential to modern life.</p>
+                                                    <p class="bold">
+                                                        La familia de bujías de DENSO no tiene igual en longevidad,
+                                                        durabilidad, mayor potencia, economía y confiabilidad.
+                                                    </p>
                                                 </div>
                                             </div>
                                             <!-- eof .slide_description -->

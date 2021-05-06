@@ -28,4 +28,7 @@ Route::get('/about.html', function () {
 Route::get('/services.html', function () {
     return view('services');
 });
+Route::get('/blog-full.html', function () {
+    return view('blog-full');
+});
 

@@ -101,7 +101,7 @@
                                             <a href="#">PRODUCTOS</a>
                                             <ul>
                                                 <li>
-                                                    <a href="services.html">MARCAS</a>
+                                                    <a href="#">MARCAS</a>
                                                 </li>
                                                 <li>
                                                     <a href="service-single.html">APLICACIONES</a>
@@ -115,7 +115,7 @@
 
                                         <!-- blog -->
                                         <li>
-                                            <a href="blog-right.html">NOVEDADES</a>
+                                            <a href="blog-full.html">NOVEDADES</a>
                                         </li>
                                         <!-- eof blog -->
 
@@ -396,10 +396,14 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6 text-center">
-                            <p class="bold fontsize_12 text-uppercase kanit">Oildrop global - test with the best &copy; 2016.
-                                <span class="black">Created with</span>
-                                <a href="http://modernwebtemplates.com">
-                                    <i class="icon-heart highlight fontsize_14"></i> by MWTemplates</a>
+                        <p class="bold fontsize_12 text-uppercase kanit">
+                                SOMOS UNA COMPAÑÍA DEDICADA A LA AUTOMATIZACIÓN
+                                DE PROCESOS INDUSTRIALES, CON AMPLIA EXPERIENCIA EN INSTRUMENTACIÓN
+                                DE CAMPO. INTEGRAMOS A LOS MEJORES FABRICANTES PARA SUMINISTRO DE
+                                REFACCIONAMIENTO PARA SUS PROCESOS Y EQUIPOS DE CONTROL.
+                                ESTAMOS COMPROMETIDOS CON LA CALIDAD EN NUESTROS SERVICIOS CON LA
+                                CONVICCIÓN DE DEJAR UN TRABAJO QUE EXCEDA LAS EXPECTATIVAS DE NUESTROS
+                                CLIENTES. ICI INDUSTRIAL
                             </p>
                         </div>
                     </div>

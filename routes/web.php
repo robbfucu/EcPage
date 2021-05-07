@@ -32,3 +32,6 @@ Route::get('/blog-full.html', function () {
     return view('blog-full');
 });
 
+Route::get('/service-single.html', function () {
+    return view('service-single');
+});

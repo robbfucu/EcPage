@@ -57,34 +57,6 @@
         <div id="box_wrapper">
 
             <!-- template sections -->
-
-            <section class="page_topline ls table_section table_section_md">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-9 text-center text-md-left">
-                            <span class="kanit text-uppercase bold fontsize_12">
-                                <i class="icon-map-marker highlight fontsize_16"></i> Lightning Point Drive
-                                <span class="highlight fontsize_14">27/2</span> Los angeles,
-                                <span class="highlight">Inc -
-                                    <span class="fontsize_14">4502</span>
-                                </span>
-                            </span>
-                            <span class="kanit text-uppercase bold fontsize_12">
-                                <i class="icon-phone highlight fontsize_16"></i> have a question call now
-                                <span class="fontsize_14 highlight">1 (800) 300 2214</span>
-                            </span>
-                        </div>
-
-                        <div class="col-md-3 text-center text-md-right">
-                            <a href="#" class="theme_button block_button color1">
-                                <i class="icon-quote"></i>
-                                <span>Request a Quote</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             <header class="page_header cs main_color2 theme_header bordered_items floating_logo table_section">
                         <div class="col-md-8 col-lg-9 text-right">
                             <!-- main nav start -->
@@ -101,10 +73,10 @@
                                             <a href="#">PRODUCTOS</a>
                                             <ul>
                                                 <li>
-                                                    <a href="#">MARCAS</a>
+                                                    <a href="service-single.html">MARCAS</a>
                                                 </li>
                                                 <li>
-                                                    <a href="service-single.html">APLICACIONES</a>
+                                                    <a href="#">APLICACIONES</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -121,7 +93,7 @@
 
                                         <!-- contacts -->
                                         <li>
-                                            <a href="contact.html">Contacto</a>
+                                            <a href="contact.html">Contáctanos</a>
                                         </li>
                                         <!-- eof contacts -->
                                         <li>

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <title>OilDrop</title>
+    <meta charset="utf-8">
+    <!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css" id="color-switcher-link">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+    <!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+    <div class="preloader">
+        <div class="preloader_image"></div>
+    </div>
+
+
+    <!-- search modal -->
+    <div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+        <div class="widget widget_search">
+            <form method="get" class="searchform form-inline" action="/">
+                <div class="form-group">
+                    <input type="text" value="" name="search" class="form-control" placeholder="Search keyword"
+                        id="modal-search-input">
+                </div>
+                <button type="submit" class="theme_button">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- wrappers for visual page editor and boxed version of template -->
+    <div id="canvas">
+        <div id="box_wrapper">
+
+            <!-- template sections -->
+            <header
+                class="page_header cs main_color2 bordered_items columns_padding_0 toggle_menu_left not_hide_menuitems with_top_border">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-right">
+                            <div class="menu-container">
+                                <!-- main nav start -->
+                                <nav class="mainmenu_wrapper">
+                                    <ul class="mainmenu nav sf-menu">
+                                        <li class="active">
+                                            <a href="welcome.blade.php">Inicio</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="about.html">QUIÉNES SOMOS</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">PRODUCTOS</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="service-single.html">MARCAS</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">APLICACIONES</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="services.html">SERVICIOS</a>
+                                        </li>
+                                        <!-- eof features -->
+
+                                        <!-- blog -->
+                                        <li>
+                                            <a href="blog-full.html">NOVEDADES</a>
+                                        </li>
+                                        <!-- eof blog -->
+
+                                        <!-- contacts -->
+                                        <li>
+                                            <a href="contact.html">Contáctanos</a>
+                                        </li>
+                                        <!-- eof contacts -->
+                                        <li>
+                                            <span>
+                                                LOGO
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <!-- eof main nav -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="page_breadcrumbs ls ms ms_dark section_padding_25">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h1 class="highlight2 bold bottommargin_5">Single service</h1>
+                            <ol class="breadcrumb">
+                                <li>
+                                    <a href="./">
+                                        HomePage
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Services</a>
+                                </li>
+                                <li class="active"> Single service</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="ls section_padding_145 service_single">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 margin_0">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4">
+                                    <div class="teaser">
+                                        <div>
+                                            <img src="images/Mot_logo.png" alt="" width="500" height="600"
+                                                style="vertical-align:middle">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-8">
+                                    <h4 class="text-uppercase">MOTORTECH GmbH</h4>
+                                    <hr class="divider_2_30 left main_bg_color">
+                                    <p class="bottommargin_10">
+                                        Es un desarrollador y fabricante internacional de sistemas de encendido,
+                                        sistemas de control de relación de aire / combustible,
+                                        sistemas de control de motores de gas y otros accesorios
+                                        para la industria mundial de generación de energía con motores de gas
+                                        estacionarios.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <a href="www.motortech.de">www.motortech.de</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ls section_padding_145 service_single">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 margin_0">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4">
+                                    <div class="teaser">
+                                        <div>
+                                            <img src="images/Mot_logo.png" alt="" width="500" height="600"
+                                                style="vertical-align:middle">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-8">
+                                    <h4 class="text-uppercase">MOTORTECH GmbH</h4>
+                                    <hr class="divider_2_30 left main_bg_color">
+                                    <p class="bottommargin_10">
+                                        Es un desarrollador y fabricante internacional de sistemas de encendido,
+                                        sistemas de control de relación de aire / combustible,
+                                        sistemas de control de motores de gas y otros accesorios
+                                        para la industria mundial de generación de energía con motores de gas
+                                        estacionarios.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <a href="www.motortech.de">www.motortech.de</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ls section_padding_145 service_single">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 margin_0">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4">
+                                    <div class="teaser">
+                                        <div>
+                                            <img src="images/Mot_logo.png" alt="" width="500" height="600"
+                                                style="vertical-align:middle">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-8">
+                                    <h4 class="text-uppercase">MOTORTECH GmbH</h4>
+                                    <hr class="divider_2_30 left main_bg_color">
+                                    <p class="bottommargin_10">
+                                        Es un desarrollador y fabricante internacional de sistemas de encendido,
+                                        sistemas de control de relación de aire / combustible,
+                                        sistemas de control de motores de gas y otros accesorios
+                                        para la industria mundial de generación de energía con motores de gas
+                                        estacionarios.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <a href="www.motortech.de">www.motortech.de</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ls section_padding_145 service_single">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 margin_0">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4">
+                                    <div class="teaser">
+                                        <div>
+                                            <img src="images/Mot_logo.png" alt="" width="500" height="600"
+                                                style="vertical-align:middle">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-8">
+                                    <h4 class="text-uppercase">MOTORTECH GmbH</h4>
+                                    <hr class="divider_2_30 left main_bg_color">
+                                    <p class="bottommargin_10">
+                                        Es un desarrollador y fabricante internacional de sistemas de encendido,
+                                        sistemas de control de relación de aire / combustible,
+                                        sistemas de control de motores de gas y otros accesorios
+                                        para la industria mundial de generación de energía con motores de gas
+                                        estacionarios.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <a href="www.motortech.de">www.motortech.de</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ls section_padding_145 service_single">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 margin_0">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4">
+                                    <div class="teaser">
+                                        <div>
+                                            <img src="images/Mot_logo.png" alt="" width="500" height="600"
+                                                style="vertical-align:middle">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-8">
+                                    <h4 class="text-uppercase">MOTORTECH GmbH</h4>
+                                    <hr class="divider_2_30 left main_bg_color">
+                                    <p class="bottommargin_10">
+                                        Es un desarrollador y fabricante internacional de sistemas de encendido,
+                                        sistemas de control de relación de aire / combustible,
+                                        sistemas de control de motores de gas y otros accesorios
+                                        para la industria mundial de generación de energía con motores de gas
+                                        estacionarios.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <a href="www.motortech.de">www.motortech.de</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <!-- eof #box_wrapper -->
+    </div>
+    <!-- eof #canvas -->
+
+    <script src="js/compressed.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

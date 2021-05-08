@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <title>OilDrop</title>
+    <meta charset="utf-8">
+    <!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css" id="color-switcher-link">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+    <!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+    <div class="preloader">
+        <div class="preloader_image"></div>
+    </div>
+
+
+    <!-- search modal -->
+    <div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+        <div class="widget widget_search">
+            <form method="get" class="searchform form-inline" action="/">
+                <div class="form-group">
+                    <input type="text" value="" name="search" class="form-control" placeholder="Search keyword"
+                        id="modal-search-input">
+                </div>
+                <button type="submit" class="theme_button">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- wrappers for visual page editor and boxed version of template -->
+    <div id="canvas">
+        <div id="box_wrapper">
+
+            <!-- template sections -->
+            <header
+                class="page_header cs main_color2 bordered_items columns_padding_0 toggle_menu_left not_hide_menuitems with_top_border">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-right">
+                            <div class="menu-container">
+                                <!-- main nav start -->
+                                <nav class="mainmenu_wrapper">
+                                    <ul class="mainmenu nav sf-menu">
+                                        <li class="active">
+                                            <a href="welcome.blade.php">Inicio</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="about.html">QUIÉNES SOMOS</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">PRODUCTOS</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="service-single.html">MARCAS</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">APLICACIONES</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="services.html">SERVICIOS</a>
+                                        </li>
+                                        <!-- eof features -->
+
+                                        <!-- blog -->
+                                        <li>
+                                            <a href="blog-full.html">NOVEDADES</a>
+                                        </li>
+                                        <!-- eof blog -->
+
+                                        <!-- contacts -->
+                                        <li>
+                                            <a href="contact.html">Contáctanos</a>
+                                        </li>
+                                        <!-- eof contacts -->
+                                        <li>
+                                            <span>
+                                                LOGO
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <!-- eof main nav -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="page_breadcrumbs ls ms ms_dark section_padding_25">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h1 class="highlight2 bold bottommargin_5">Services</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="ls section_padding_top_135 section_padding_bottom_90 columns_padding_25 page_services">
+                <div class="container">
+                    <div class="row columns_margin_bottom_40 services-row">
+                        <div class="col-md-6">
+                            <div class="teaser">
+                                <div class="main_bg_color2 size_normal round overlapped-icon">
+                                    <!-- <i class="icon-thermal-power highlight"></i> -->
+                                    <img src="./images/panel-de-control-3.png" alt="">
+                                </div>
+                                <h4 class="text-uppercase">TABLEROS DE CONTROL</h4>
+                                <hr class="divider_2_30 left main_bg_color">
+                                <p>
+                                    Diseño de tableros de control para diferentes procesos,
+                                    con capacidad de expansión a nuevas tecnologías en navegación web.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="teaser">
+                                <div class="main_bg_color2 size_normal round overlapped-icon">
+                                    <!-- <i class="icon-oil-platform highlight"></i> -->
+                                    <img src="./images/informacion-1.png" alt="">
+                                </div>
+                                <h4 class="text-uppercase">DESARROLLO DE SOFTWARE</h4>
+                                <hr class="divider_2_30 left main_bg_color">
+                                <p>
+                                    Desarrollamos e implementamos
+                                    ingeniería de software dedicados para optimizar sus procesos.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="teaser">
+                                <div class="main_bg_color2 size_normal round overlapped-icon">
+                                    <!-- <i class="icon-gas-flaring highlight"></i> -->
+                                    <img src="./images/administracion-1.png" alt="">
+                                </div>
+                                <h4 class="text-uppercase">INSTRUMENTACIÓN</h4>
+                                <hr class="divider_2_30 left main_bg_color">
+                                <p>
+                                    Recomendación de instrumentación con última tecnología
+                                    para garantizar su medición y control en procesos.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="teaser">
+                                <div class="main_bg_color2 size_normal round overlapped-icon">
+                                    <!-- <i class="icon-oil-pump highlight"></i> -->
+                                    <img src="./images/mantenimiento-3.png" alt="">
+                                </div>
+                                <h4 class="text-uppercase">INSTALACIÓN</h4>
+                                <hr class="divider_2_30 left main_bg_color">
+                                <p>
+                                    Instalación flexible de los instrumentos,
+                                    para reducir horas de mantenimiento preventivo y correctivo..
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="teaser">
+                                <div class="main_bg_color2 size_normal round overlapped-icon">
+                                    <!-- <i class="icon-oil-refinery highlight"></i> -->
+                                    <img src="./images/bombear-3.png" alt="">
+                                </div>
+                                <h4 class="text-uppercase">DESARROLLO DE APLICACIONES</h4>
+                                <hr class="divider_2_30 left main_bg_color">
+                                <p>
+                                    Desarrollo de aplicaciones, como Bomba, Compresores, Generadores,
+                                    líneas de producción, con datos de almacenamiento para mejorar su rendimiento.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="teaser">
+                                <div class="main_bg_color2 size_normal round overlapped-icon">
+                                    <!-- <i class="icon-factory highlight"></i> -->
+                                    <img src="./images/mantenimiento-1.png" alt="">
+                                </div>
+                                <h4 class="text-uppercase">CALIBRACION Y MANTENIMIENTO</h4>
+                                <hr class="divider_2_30 left main_bg_color">
+                                <p>
+                                    Servicios de calibración
+                                    y mantenimiento con herramienta
+                                    certificada con trazabilidad al CENAM.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section
+                class="page_copyright cs main_color2 table_section section_padding_top_30 section_padding_bottom_30">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 text-center">
+                            <p class="bold fontsize_12 text-uppercase kanit">
+                                SOMOS UNA COMPAÑÍA DEDICADA A LA AUTOMATIZACIÓN
+                                DE PROCESOS INDUSTRIALES, CON AMPLIA EXPERIENCIA EN INSTRUMENTACIÓN
+                                DE CAMPO. INTEGRAMOS A LOS MEJORES FABRICANTES PARA SUMINISTRO DE
+                                REFACCIONAMIENTO PARA SUS PROCESOS Y EQUIPOS DE CONTROL.
+                                ESTAMOS COMPROMETIDOS CON LA CALIDAD EN NUESTROS SERVICIOS CON LA
+                                CONVICCIÓN DE DEJAR UN TRABAJO QUE EXCEDA LAS EXPECTATIVAS DE NUESTROS
+                                CLIENTES. ICI INDUSTRIAL
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <!-- eof #box_wrapper -->
+    </div>
+    <!-- eof #canvas -->
+
+    <script src="js/compressed.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <title>OilDrop</title>
+    <meta charset="utf-8">
+    <!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css" id="color-switcher-link">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+    <!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+    <div class="preloader">
+        <div class="preloader_image"></div>
+    </div>
+
+
+    <!-- search modal -->
+    <div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+        <div class="widget widget_search">
+            <form method="get" class="searchform form-inline" action="/">
+                <div class="form-group">
+                    <input type="text" value="" name="search" class="form-control" placeholder="Search keyword"
+                        id="modal-search-input">
+                </div>
+                <button type="submit" class="theme_button">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- wrappers for visual page editor and boxed version of template -->
+    <div id="canvas">
+        <div id="box_wrapper">
+
+            <!-- template sections -->
+            <header
+                class="page_header cs main_color2 bordered_items columns_padding_0 toggle_menu_left not_hide_menuitems with_top_border">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-right">
+                            <div class="menu-container">
+                                <!-- main nav start -->
+                                <nav class="mainmenu_wrapper">
+                                    <ul class="mainmenu nav sf-menu">
+                                        <li class="active">
+                                            <a href="welcome.blade.php">Inicio</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="about.html">QUIÉNES SOMOS</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">PRODUCTOS</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="service-single.html">MARCAS</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">APLICACIONES</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="services.html">SERVICIOS</a>
+                                        </li>
+                                        <!-- eof features -->
+
+                                        <!-- blog -->
+                                        <li>
+                                            <a href="blog-full.html">NOVEDADES</a>
+                                        </li>
+                                        <!-- eof blog -->
+
+                                        <!-- contacts -->
+                                        <li>
+                                            <a href="contact.html">Contáctanos</a>
+                                        </li>
+                                        <!-- eof contacts -->
+                                        <li>
+                                            <img src="./images/ici_logo.png" alt="">
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <!-- eof main nav -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="page_breadcrumbs ls ms ms_dark section_padding_25">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h1 class="highlight2 bold bottommargin_5">No sidebar</h1>
+                            <ol class="breadcrumb">
+                                <li>
+                                    <a href="./">
+                                        HomePage
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Our blog</a>
+                                </li>
+                                <li class="active"> No sidebar</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ls section_padding_75 columns_margin_0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <article id="blog-gallery-slider" class="carousel slide parallax cs main_color2">
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="item text-center active">
+                                        <h3 class="black roboto section_header big">
+                                            Vital oil and natural
+                                            <br> gas resources
+                                        </h3>
+                                    </div>
+                                    <div class="item text-center">
+                                        <h3 class="black roboto section_header big">
+                                            Vital oil and natural
+                                            <br> gas resources
+                                        </h3>
+                                    </div>
+                                    <div class="item text-center">
+                                        <h3 class="black roboto section_header big">
+                                            Vital oil and natural
+                                            <br> gas resources
+                                        </h3>
+                                    </div>
+                                </div>
+
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#blog-gallery-slider" data-slide-to="0" class="active"></li>
+                                    <li data-target="#blog-gallery-slider" data-slide-to="1"></li>
+                                    <li data-target="#blog-gallery-slider" data-slide-to="2"></li>
+                                </ol>
+
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cs main_color2 section_padding_top_145 section_padding_bottom_125 columns_margin_bottom_30">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <article class="vertical-item content-padding ls with_bottom_border">
+                                <div class="item-media">
+                                    <img src="./images/blog_post4.jpg" alt="">
+                                    <div class="media-links">
+                                        <div class="links-wrap">
+                                            <a class="p-link" title="" href="blog-single-right.html"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="categories-links small-text big-spacing">
+                                        <a href="#">projects &amp; missions</a>
+                                    </div>
+                                    <h3 class="entry-title">
+                                        <a href="blog-single-right.html">For a Better Tomorrow</a>
+                                    </h3>
+                                    <p>
+                                        Brisket shoulder sirloin drum doner cow tail hamburger.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <article class="vertical-item content-padding ls with_bottom_border">
+                                <div class="item-media">
+                                    <img src="./images/blog_post1.jpg" alt="">
+                                    <div class="media-links">
+                                        <div class="links-wrap">
+                                            <a class="p-link" title="" href="blog-single-right.html"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="categories-links small-text big-spacing">
+                                        <a href="#">Chemicals &amp; Refining</a>
+                                    </div>
+                                    <h3 class="entry-title">
+                                        <a href="blog-single-right.html">Energy for the world</a>
+                                    </h3>
+                                    <p>
+                                        Blinded by desire, that they can fo the pain and trouble that are bound to
+                                        blame.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <article class="vertical-item content-padding ls with_bottom_border">
+                                <div class="item-media">
+                                    <img src="./images/blog_post2.jpg" alt="">
+                                    <div class="media-links">
+                                        <div class="links-wrap">
+                                            <a class="p-link" title="" href="blog-single-right.html"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="categories-links small-text big-spacing">
+                                        <a href="#">International Trade</a>
+                                    </div>
+                                    <h3 class="entry-title">
+                                        <a href="blog-single-right.html">A brighter tomorrow starts today</a>
+                                    </h3>
+                                    <p>
+                                        On the other hand enounce with righteous indignation.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <article class="vertical-item content-padding ls with_bottom_border">
+                                <div class="item-media">
+                                    <img src="./images/blog_post3.jpg" alt="">
+                                    <div class="media-links">
+                                        <div class="links-wrap">
+                                            <a class="p-link" title="" href="blog-single-right.html"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="categories-links small-text big-spacing">
+                                        <a href="#">Petrolium Engineering</a>
+                                    </div>
+                                    <h3 class="entry-title">
+                                        <a href="blog-single-right.html">Power for the future</a>
+                                    </h3>
+                                    <p>
+                                        Curabitur sit amet lacinia to justo. In modo, eros eget a commodo condimentum.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ls ms ms_dark section_padding_145">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-sm-10 col-sm-push-1">
+
+
+
+                            <!-- .post -->
+
+                            <article
+                                class="vertical-item content-padding post format-standard with_background with_bottom_border">
+
+                                <div class="item-media entry-thumbnail">
+                                    <img src="images/gallery/02.jpg" alt="">
+                                    <div class="media-links">
+                                        <a class="abs-link" title="" href="blog-single-full.html"></a>
+                                    </div>
+                                </div>
+
+                                <div class="item-content entry-content">
+                                    <header class="entry-header">
+
+                                        <span class="small-text big-spacing pull-right">
+                                            <time datetime="2016-08-01T15:05:23+00:00" class="entry-date">
+                                                june 30, 2016
+                                            </time>
+                                        </span>
+
+                                        <div class="categories-links small-text big-spacing pull-left">
+                                            <a href="#">International Trade</a>
+                                        </div>
+
+                                        <div class="clearfix"></div>
+
+                                        <h3 class="entry-title">
+                                            <a href="blog-single-video-full.html" rel="bookmark">Short loin shankle
+                                                meatball tongue spare ribs rump</a>
+                                        </h3>
+
+                                    </header>
+                                    <!-- .entry-header -->
+
+                                    <p class="margin_0">Strip steak capicola short loin landjaeger pancetta biltong pig
+                                        kevin prosciutto picanha pork salami venison. Andouille bacon shoulder cow short
+                                        ribs. Sausage landjaeger pastrami meatball chuck spare ribs. Brisket alcatra
+                                        picanha jowl, drumstick
+                                        short ribs cow pancetta ground round pork loin.</p>
+
+                                </div>
+                                <!-- .item-content.entry-content -->
+                            </article>
+                            <!-- .post -->
+
+                            <article
+                                class="cs main_color2 vertical-item content-padding post format-status after_cover">
+
+                                <div class="item-content entry-content text-center">
+
+                                    <div class="media inline-block">
+                                        <img src="images/faces/04.jpg" alt=""
+                                            class="media-object round topmargin_5 bottommargin_5">
+                                    </div>
+                                    <br>
+                                    <div class="categories-links small-text big-spacing">
+                                        <a href="#">Status</a>
+                                    </div>
+                                    <div class="small-text big-spacing topmargin_-5">
+                                        <time datetime="2016-08-01T15:05:23+00:00" class="entry-date">
+                                            june 24, 2016
+                                        </time>
+                                    </div>
+
+                                    <h3 class="entry-title bottommargin_5">
+                                        <a href="blog-single-video-full.html" rel="bookmark">Bacon meatloaf cow rump
+                                            strip steak alcatra t-bone tongue corned beef ground</a>
+                                    </h3>
+
+                                </div>
+                                <!-- .item-content.entry-content -->
+                            </article>
+                            <!-- .post -->
+
+                            <article
+                                class="vertical-item content-padding post format-standard with_background with_bottom_border">
+
+                                <div class="item-content entry-content">
+                                    <header class="entry-header">
+
+                                        <span class="small-text big-spacing pull-right">
+                                            <time datetime="2016-08-01T15:05:23+00:00" class="entry-date">
+                                                june 17, 2016
+                                            </time>
+                                        </span>
+
+                                        <div class="categories-links small-text big-spacing pull-left">
+                                            <a href="#">Link</a>
+                                        </div>
+
+                                        <div class="clearfix"></div>
+
+                                        <h3 class="entry-title bottommargin_5">
+                                            <a href="blog-single-video-full.html" rel="bookmark">Pork belly strip steak
+                                                shankle flank pastrami biltong</a>
+                                        </h3>
+
+                                    </header>
+                                    <!-- .entry-header -->
+
+                                </div>
+                                <!-- .item-content.entry-content -->
+                            </article>
+                            <!-- .post -->
+
+                            <article
+                                class="vertical-item content-padding post format-standard with_background with_bottom_border">
+
+                                <div class="item-media entry-thumbnail cs main_color2">
+                                    <div id="post-slider" class="carousel slide">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#post-slider" data-slide-to="0" class="active"></li>
+                                            <li data-target="#post-slider" data-slide-to="1"></li>
+                                            <li data-target="#post-slider" data-slide-to="2"></li>
+                                        </ol>
+
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <img src="images/gallery/04.jpg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/gallery/06.jpg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/gallery/07.jpg" alt="">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="item-content entry-content">
+                                    <header class="entry-header">
+
+                                        <span class="small-text big-spacing pull-right">
+                                            <time datetime="2016-08-01T15:05:23+00:00" class="entry-date">
+                                                june 15, 2016
+                                            </time>
+                                        </span>
+
+                                        <div class="categories-links small-text big-spacing pull-left">
+                                            <a href="#">Petrolium Engineering</a>
+                                        </div>
+
+                                        <div class="clearfix"></div>
+
+                                        <h3 class="entry-title bottommargin_5">
+                                            <a href="blog-single-video-full.html" rel="bookmark">Hamburger chuck
+                                                kielbasa kevin short ribs ball tip ribeye</a>
+                                        </h3>
+
+                                    </header>
+                                    <!-- .entry-header -->
+
+                                </div>
+                                <!-- .item-content.entry-content -->
+                            </article>
+                            <!-- .post -->
+
+                            <article class="ds vertical-item content-padding post format-quote after_cover">
+
+                                <div class="item-content entry-content">
+
+                                    <span class="small-text big-spacing pull-right">
+                                        <time datetime="2016-08-01T15:05:23+00:00" class="entry-date">
+                                            june 20, 2016
+                                        </time>
+                                    </span>
+
+                                    <div class="categories-links small-text big-spacing pull-left">
+                                        <a href="#">Quote</a>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+
+                                    <blockquote class="no-border text-center">
+                                        <p>“Hamburger ground round swine capicola short ribs boudin salami flank ham
+                                            hock pork loin pork sausage turkey stick pork belly. Jowl cow turkey
+                                            drumstick.”</p>
+
+                                        <div class="item-meta">
+                                            <h4 class="medium highlight bottommargin_0">Seth Morrison</h4>
+                                            <span class="text-uppercase bold fontsize_12 kanit">Consultant</span>
+                                        </div>
+                                    </blockquote>
+
+                                </div>
+                                <!-- .item-content.entry-content -->
+                            </article>
+                            <!-- .post -->
+
+                            <article
+                                class="vertical-item content-padding post format-chat with_background with_bottom_border">
+
+                                <div class="item-media entry-thumbnail">
+                                    <img src="images/gallery/04.jpg" alt="">
+                                    <div class="media-links">
+                                        <a class="abs-link" title="" href="blog-single-full.html"></a>
+                                    </div>
+                                </div>
+
+                                <div class="item-content entry-content">
+                                    <header class="entry-heade bottommargin_20">
+
+                                        <span class="small-text big-spacing pull-right">
+                                            <time datetime="2016-08-01T15:05:23+00:00" class="entry-date">
+                                                june 16, 2016
+                                            </time>
+                                        </span>
+
+                                        <div class="categories-links small-text big-spacing pull-left">
+                                            <a href="#">Chat</a>
+                                        </div>
+
+                                        <div class="clearfix"></div>
+
+                                        <h3 class="entry-title bottommargin_0">
+                                            <a href="blog-single-video-full.html" rel="bookmark">Tail meatloaf pork
+                                                belly salami turkey biltong spare</a>
+                                        </h3>
+
+                                    </header>
+                                    <!-- .entry-header -->
+
+                                    <ol class="comment-list no-bullets">
+                                        <li class="comment depth-1">
+                                            <article class="comment-body">
+                                                <p>
+                                                    <span class="comment-author">Sam: </span>Excepteur cow pork chop
+                                                    jerky capicola proident boudin shankle flank shank veniam.
+                                                </p>
+                                            </article>
+                                            <ol class="children muted_background depth-2 no-bullets">
+                                                <li class="comment">
+                                                    <p>
+                                                        <span class="comment-author">George: </span>T-bone dolor
+                                                        occaecat biltong, corned beef short ribs swine deserunt
+                                                        onsequat.
+                                                    </p>
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li class="comment depth-1">
+                                            <article class="comment-body">
+                                                <p>
+                                                    <span class="comment-author">Sam: </span>Id aliquip bacon nulla,
+                                                    irure magna ad cow picanha ut landjaeger. Shank anim
+                                                </p>
+                                            </article>
+                                            <ol class="children muted_background depth-2 no-bullets">
+                                                <li class="comment">
+                                                    <p>
+                                                        <span class="comment-author">George: </span>Officia ground round
+                                                        pastrami laborum. Pig dolore cupim eu, occaecat ham qua pariatur
+                                                        doner nostrud. Ex reprehenderit filet mignon pork belly in.
+                                                    </p>
+                                                </li>
+                                            </ol>
+                                        </li>
+                                    </ol>
+
+                                </div>
+                                <!-- .item-content.entry-content -->
+                            </article>
+                            <!-- .post -->
+
+                            <article
+                                class="vertical-item content-padding post format-standard with_background with_bottom_border">
+
+                                <div class="item-content entry-content">
+                                    <header class="entry-header">
+
+                                        <span class="small-text big-spacing pull-right">
+                                            <time datetime="2016-08-01T15:05:23+00:00" class="entry-date">
+                                                june 20, 2016
+                                            </time>
+                                        </span>
+
+                                        <div class="categories-links small-text big-spacing pull-left">
+                                            <a href="#">projects &amp; missions</a>
+                                        </div>
+
+                                        <div class="clearfix"></div>
+
+                                        <h3 class="entry-title">
+                                            <a href="blog-single-video-full.html" rel="bookmark">Alcatra drumstick pork
+                                                turkey spare ribs rump ribeye beef ribs</a>
+                                        </h3>
+
+                                    </header>
+                                    <!-- .entry-header -->
+
+                                    <p>Venison pork belly cow porchetta pig boudin. Boudin pork belly tenderloin
+                                        meatloaf. Meatball pastrami ham hoc drumstick porchetta sausage fatback spare
+                                        ribs pork short loin pork chop bacon. Tail andouille turducken, shank picanha
+                                        pastrami boudin.</p>
+
+                                </div>
+                                <!-- .item-content.entry-content -->
+                            </article>
+                            <!-- .post -->
+
+
+                        </div>
+                        <!--eof .col-sm-8 (main content)-->
+
+
+                    </div>
+                </div>
+            </section>
+
+            <section
+                class="page_copyright cs main_color2 table_section section_padding_top_30 section_padding_bottom_30">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 text-center">
+                            <p class="bold fontsize_12 text-uppercase kanit">
+                                SOMOS UNA COMPAÑÍA DEDICADA A LA AUTOMATIZACIÓN
+                                DE PROCESOS INDUSTRIALES, CON AMPLIA EXPERIENCIA EN INSTRUMENTACIÓN
+                                DE CAMPO. INTEGRAMOS A LOS MEJORES FABRICANTES PARA SUMINISTRO DE
+                                REFACCIONAMIENTO PARA SUS PROCESOS Y EQUIPOS DE CONTROL.
+                                ESTAMOS COMPROMETIDOS CON LA CALIDAD EN NUESTROS SERVICIOS CON LA
+                                CONVICCIÓN DE DEJAR UN TRABAJO QUE EXCEDA LAS EXPECTATIVAS DE NUESTROS
+                                CLIENTES. ICI INDUSTRIAL
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <!-- eof #box_wrapper -->
+    </div>
+    <!-- eof #canvas -->
+
+    <script src="js/compressed.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

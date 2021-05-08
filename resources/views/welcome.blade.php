@@ -76,7 +76,7 @@
                                                     <a href="service-single.html">MARCAS</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">APLICACIONES</a>
+                                                    <a href="aplicaciones.html">APLICACIONES</a>
                                                 </li>
                                             </ul>
                                         </li>

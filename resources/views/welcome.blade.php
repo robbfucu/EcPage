@@ -232,33 +232,13 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8 text-center text-sm-left">
                             <h2 class="section_header">
-                                Our blog
+                                Novedades
                             </h2>
                             <hr class="divider_2_30 left main_bg_color topmargin_30">
                             <div class="inline-block bottommargin_50">
-                                <ul class="list1 middle-borders margin_0 bold greylinks">
-                                    <li>
-                                        <a href="#">Chemicals &amp; Refining</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">International Trade</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Petrolium Engineering</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Projects &amp; Achievements</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Explore &amp; Produce</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Transform &amp; Develop</a>
-                                    </li>
-                                </ul>
                             </div>
                             <br>
-                            <a href="services.html" class="theme_button color1">Go to our blog</a>
+                            <a href="blog-full.html" class="theme_button color1">Mas Informacion</a>
                         </div>
                         <div class="col-lg-3 col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
                             <article class="vertical-item content-padding ls with_bottom_border topmargin_10">
@@ -328,37 +308,6 @@
                                     </p>
                                 </div>
                             </article>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="cs main_color2 parallax section_subscribe section_padding_50">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <h2 class="section_header">
-                                Newsletter
-                            </h2>
-                            <hr class="divider_2_30 left-important main_bg_color topmargin_30">
-                        </div>
-                        <div class="col-md-9">
-                            <div class="widget widget_mailchimp">
-                                <p class="roboto fontsize_18 bold black bottommargin_5">
-                                    Subscribe to our newsletters to receive latest news and updates
-                                </p>
-                                <form class="signup row columns_padding_10" action="/" method="get">
-                                    <div class="col-lg-8 col-md-7">
-                                        <div class="form-group">
-                                            <input class="mailchimp_email form-control" name="email" type="email" placeholder="Your email address">
-                                        </div>
-                                        <div class="response"></div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-5">
-                                        <button type="submit" class="theme_button color1">subscribe to newsletter</button>
-                                    </div>
-                                </form>
-                            </div>
                         </div>
                     </div>
                 </div>

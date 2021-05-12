@@ -1,5 +1,7 @@
 <?php
 
+use App\Models\Marca;
+use App\Models\Servicio;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('inicio');
 
 Route::get('/contact.html', function () {
     return view('contact');
@@ -28,13 +30,16 @@ Route::get('/about.html', function () {
 Route::get('/services.html', function () {
     return view('services');
 });
+
 Route::get('/blog-full.html', function () {
     return view('blog-full');
 });
 
-Route::get('/service-single.html', function () {
-    return view('service-single');
-});
+Route::get('/marcas', function () {
+    return view('marcas')->with([
+        'marcas' => Marca::all()
+    ]);
+})->name('marcas');
 
 Route::get('/aplicaciones.html', function () {
     return view('aplicaciones');

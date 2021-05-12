@@ -243,7 +243,7 @@
                         <div class="col-lg-3 col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
                             <article class="vertical-item content-padding ls with_bottom_border topmargin_10">
                                 <div class="item-media">
-                                    <img src="./images/blog_post1.jpg" alt="">
+                                    <img src="./images/accesoriosr-motortech.png" alt="">
                                     <div class="media-links">
                                         <div class="links-wrap">
                                             <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="./images/blog_post1.jpg"></a>
@@ -252,7 +252,7 @@
                                 </div>
                                 <div class="item-content">
                                     <div class="categories-links small-text big-spacing">
-                                        <a href="#">Chemicals &amp; Refining</a>
+                                        <a href="#">Controladores</a>
                                     </div>
                                     <h3 class="entry-title">
                                         <a href="blog-single-right.html">Energy for the world</a>
@@ -266,7 +266,7 @@
                         <div class="col-lg-3 col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
                             <article class="vertical-item content-padding ls with_bottom_border topmargin_10">
                                 <div class="item-media">
-                                    <img src="./images/blog_post2.jpg" alt="">
+                                    <img src="./images/accesoriosr-motortech.png" alt="">
                                     <div class="media-links">
                                         <div class="links-wrap">
                                             <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="./images/blog_post2.jpg"></a>
@@ -275,7 +275,7 @@
                                 </div>
                                 <div class="item-content">
                                     <div class="categories-links small-text big-spacing">
-                                        <a href="#">International Trade</a>
+                                        <a href="#">Controladores</a>
                                     </div>
                                     <h3 class="entry-title">
                                         <a href="blog-single-right.html">A brighter tomorrow starts today</a>
@@ -289,7 +289,7 @@
                         <div class="col-lg-3 col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
                             <article class="vertical-item content-padding ls with_bottom_border topmargin_10">
                                 <div class="item-media">
-                                    <img src="./images/blog_post3.jpg" alt="">
+                                    <img src="./images/accesoriosr-motortech.png" alt="">
                                     <div class="media-links">
                                         <div class="links-wrap">
                                             <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="./images/blog_post3.jpg"></a>
@@ -298,7 +298,7 @@
                                 </div>
                                 <div class="item-content">
                                     <div class="categories-links small-text big-spacing">
-                                        <a href="#">Petrolium Engineering</a>
+                                        <a href="#">Controladores</a>
                                     </div>
                                     <h3 class="entry-title">
                                         <a href="blog-single-right.html">Power for the future</a>

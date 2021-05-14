@@ -62,6 +62,9 @@
                             <!-- main nav start -->
                             <nav class="mainmenu_wrapper">
                                     <ul class="mainmenu nav sf-menu">
+                                        <li>
+                                            <img src="./images/ici_logo.png" width="200" height="200" alt="">
+                                        </li>
                                         <li class="active">
                                             <a href="welcome.blade.php">Inicio</a>
                                         </li>
@@ -96,11 +99,6 @@
                                             <a href="contact.html">Contáctanos</a>
                                         </li>
                                         <!-- eof contacts -->
-                                        <li>
-                                            <span>
-                                                LOGO
-                                            </span>
-                                        </li>
                                     </ul>
                                 </nav>
                             <!-- eof main nav -->

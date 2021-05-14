@@ -227,6 +227,95 @@
                 </div>
             </section>
 
+            <section class="ls ms section_padding_145">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3 text-center text-sm-left">
+							<h2 class="section_header">
+								Nuestra Identidad
+							</h2>
+							<hr class="divider_2_30 left main_bg_color divider_35">
+						</div>
+						<div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
+							<div class="with_padding text-center cs main_color2 with_bottom_border">
+								<span class="image_icon">
+									<img src="./images/icon1.png" alt="">
+								</span>
+								<h3 class="highlight medium">Nuestra Misión</h3>
+                                <div class="border-paragraphs middle-borders bold bottommargin_0 greylinks">
+                                    <p>
+                                        <a href="#">Automatizar todos los procesos.</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Vender instrumentos de la mejor calidad en el mercado.</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Excelencia en el servicio de ingeniería y ventas.</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Diseñar y fabricar productos o proyectos de calidad
+                                            <br>para el mercado nacional e internacional.</a>
+                                    </p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
+							<div class="with_padding text-center cs main_color2 with_bottom_border">
+								<span class="image_icon">
+									<img src="./images/icon2.png" alt="">
+								</span>
+								<h3 class="highlight medium">Nuestra Visión</h3>
+                                <div class="border-paragraphs middle-borders bold bottommargin_0 greylinks">
+                                    <p>
+                                        <a href="#">ICI Industrial será una empresa innovadora
+                                            en tecnología, flexible al cambio, líderes en automatización.
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Empresa comprometida con el servicio al cliente.</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Expandir nuestros servicios y productos a diferentes sectores
+                                            industriales.</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Empresa confiable para distribuir instrumentos en el sector
+                                            industrial.</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Crecer nuestra fabricación de sistemas de control con el más alto
+                                            estándar de calidad en nuestros productos fabricados</a>
+                                    </p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
+							<div class="with_padding text-center cs main_color2 with_bottom_border">
+								<span class="image_icon">
+									<img src="./images/icon3.png" alt="">
+								</span>
+								<h3 class="highlight medium">Objetivos</h3>
+                                <div class="border-paragraphs middle-borders bold bottommargin_0 greylinks">
+                                    <p>
+                                        <a href="#">Convertir nuestra empresa en una rentable para inversionistas.</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Desarrollar a nuestro personal como primer paso al éxito.</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Incrementar nuestra facturación al 20% anual./a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Desarrollar productos o proyectos sustentables y duraderos.</a>
+                                    </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
             <section class="cs main_color2 section_padding_top_145 section_padding_bottom_130 columns_margin_bottom_30">
                 <div class="container">
                     <div class="row">
@@ -313,25 +402,98 @@
                 </div>
             </section>
 
-            <section class="page_copyright cs main_color2 table_section section_padding_top_30 section_padding_bottom_30">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6 text-center">
-                        <p class="bold fontsize_12 text-uppercase kanit">
-                                SOMOS UNA COMPAÑÍA DEDICADA A LA AUTOMATIZACIÓN
-                                DE PROCESOS INDUSTRIALES, CON AMPLIA EXPERIENCIA EN INSTRUMENTACIÓN
-                                DE CAMPO. INTEGRAMOS A LOS MEJORES FABRICANTES PARA SUMINISTRO DE
-                                REFACCIONAMIENTO PARA SUS PROCESOS Y EQUIPOS DE CONTROL.
-                                ESTAMOS COMPROMETIDOS CON LA CALIDAD EN NUESTROS SERVICIOS CON LA
-                                CONVICCIÓN DE DEJAR UN TRABAJO QUE EXCEDA LAS EXPECTATIVAS DE NUESTROS
-                                CLIENTES. ICI INDUSTRIAL
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <footer class="page_footer cs mx-auto section_padding_top_30 columns_margin_0">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-6">
+							<a href="./" class="logo">
+								<img src="images/logo.png" alt="">
+								<span class="logo_text">
+									<span class="highlight kanit bold">Oildrop
+										<br> global</span>
+									<span class="small-text">test with the best</span>
+								</span>
+							</a>
+							<p class="topmargin_30">
+								Everyday is a new day for us and we work really hard to satisfy our customer everywhere.
+							</p>
+							<div class="page_social_icons greylinks">
+								<a class="social-icon border-icon rounded-icon soc-facebook" href="#" title="Facebook"></a>
+							</div>
+						</div>
 
-        </div>
+						<div class="col-lg-offset-0 col-lg-6 col-md-offset-6 col-md-6">
+							<div class="row topmargin_40">
+								<div class="col-lg-12 col-md-6">
+									<div class="media thin_teaser inline-block bottommargin_20">
+										<div class="media-left media-middle">
+											<div class="teaser_icon border_icon round">
+												<i class="icon-phone black"></i>
+											</div>
+										</div>
+										<div class="media-body media-middle">
+											<p class="kanit text-uppercase bold highlight fontsize_14">
+												A phone call from one of
+												<br>
+												<span class="fontsize_18 black">our consultants</span>
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-12 col-md-6">
+									<div class="media thin_teaser inline-block bottommargin_20">
+										<div class="media-left media-middle">
+											<div class="teaser_icon border_icon round">
+												<i class="icon-calculator black"></i>
+											</div>
+										</div>
+										<div class="media-body media-middle">
+											<p class="kanit text-uppercase bold highlight fontsize_14">
+												Evaluation of
+												<br>
+												<span class="fontsize_18 black">your project cost</span>
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-12 col-md-6">
+									<div class="media thin_teaser inline-block bottommargin_20">
+										<div class="media-left media-middle">
+											<div class="teaser_icon border_icon round">
+												<i class="icon-meetings black"></i>
+											</div>
+										</div>
+										<div class="media-body media-middle">
+											<p class="kanit text-uppercase bold highlight fontsize_14">
+												An in-person meeting to
+												<br>
+												<span class="fontsize_18 black">discuss the details</span>
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-12 col-md-6">
+									<div class="media thin_teaser inline-block bottommargin_20">
+										<div class="media-left media-middle">
+											<div class="teaser_icon border_icon round">
+												<i class="icon-lock black"></i>
+											</div>
+										</div>
+										<div class="media-body media-middle">
+											<p class="kanit text-uppercase bold highlight fontsize_14">
+												Details are safe &amp; protected
+												<br>
+												<span class="fontsize_18 black">privacy guaranteed</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
         <!-- eof #box_wrapper -->
     </div>
     <!-- eof #canvas -->

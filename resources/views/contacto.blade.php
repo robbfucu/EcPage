@@ -7,7 +7,7 @@
 <!--<![endif]-->
 
 <head>
-    <title>OilDrop</title>
+    <title>{{config('app.name')}}</title>
     <meta charset="utf-8">
     <!--[if IE]>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -59,61 +59,8 @@
         <div id="box_wrapper">
 
             <!-- template sections -->
-            <header
-                class="page_header cs main_color2 bordered_items columns_padding_0 toggle_menu_left not_hide_menuitems with_top_border">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 text-right">
-                            <div class="menu-container">
-                                <!-- main nav start -->
-                                <nav class="mainmenu_wrapper">
-                                    <ul class="mainmenu nav sf-menu">
-                                        <li>
-                                            <img src="./images/ici_logo.png" width="200" height="200" alt="">
-                                        </li>
-                                        <li class="active">
-                                            <a href="welcome.blade.php">Inicio</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="about.html">QUIÉNES SOMOS</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">PRODUCTOS</a>
-                                            <ul>
-                                                <li>
-                                                    <a href="service-single.html">MARCAS</a>
-                                                </li>
-                                                <li>
-                                                    <a href="aplicaciones.html">APLICACIONES</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="services.html">SERVICIOS</a>
-                                        </li>
-                                        <!-- eof features -->
-
-                                        <!-- blog -->
-                                        <li>
-                                            <a href="blog-full.html">NOVEDADES</a>
-                                        </li>
-                                        <!-- eof blog -->
-
-                                        <!-- contacts -->
-                                        <li>
-                                            <a href="contact.html">Contáctanos</a>
-                                        </li>
-                                        <!-- eof contacts -->
-                                    </ul>
-                                </nav>
-                                <!-- eof main nav -->
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
+            @component('components.navbar')
+            @endcomponent
 
             <section class="page_breadcrumbs ls ms ms_dark section_padding_25">
                 <div class="container">

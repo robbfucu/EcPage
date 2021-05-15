@@ -19,17 +19,17 @@ Route::get('/', function () {
     return view('welcome');
 })->name('inicio');
 
-Route::get('/contact.html', function () {
-    return view('contact');
-});
+Route::get('/contacto', function () {
+    return view('contacto');
+})->name('contacto');
 
-Route::get('/about.html', function () {
-    return view('about');
-});
+Route::get('/acerca', function () {
+    return view('acerca');
+})->name('acerca');
 
-Route::get('/services.html', function () {
-    return view('services');
-});
+Route::get('/servicios', function () {
+    return view('servicios');
+})->name('servicios');
 
 Route::get('/blog-full.html', function () {
     return view('blog-full');
@@ -41,6 +41,6 @@ Route::get('/marcas', function () {
     ]);
 })->name('marcas');
 
-Route::get('/aplicaciones.html', function () {
+Route::get('/aplicaciones', function () {
     return view('aplicaciones');
-});
+})->name('aplicaciones');

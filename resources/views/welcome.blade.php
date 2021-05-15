@@ -57,58 +57,9 @@
         <div id="box_wrapper">
 
             <!-- template sections -->
-            <header class="page_header cs main_color2 theme_header bordered_items floating_logo table_section">
-                        <div class="col-md-8 col-lg-9 text-right">
-                            <!-- main nav start -->
-                            <nav class="mainmenu_wrapper">
-                                    <ul class="mainmenu nav sf-menu">
-                                        <li>
-                                            <img src="./images/ici_logo.png" width="200" height="200" alt="">
-                                        </li>
-                                        <li class="active">
-                                            <a href="welcome.blade.php">Inicio</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="about.html">QUIÉNES SOMOS</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">PRODUCTOS</a>
-                                            <ul>
-                                                <li>
-                                                    <a href="service-single.html">MARCAS</a>
-                                                </li>
-                                                <li>
-                                                    <a href="aplicaciones.html">APLICACIONES</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="services.html">SERVICIOS</a>
-                                        </li>
-                                        <!-- eof features -->
-
-                                        <!-- blog -->
-                                        <li>
-                                            <a href="blog-full.html">NOVEDADES</a>
-                                        </li>
-                                        <!-- eof blog -->
-
-                                        <!-- contacts -->
-                                        <li>
-                                            <a href="contact.html">Contáctanos</a>
-                                        </li>
-                                        <!-- eof contacts -->
-                                    </ul>
-                                </nav>
-                            <!-- eof main nav -->
-                            <span class="toggle_menu">
-                                <span></span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </header>
+            <!-- template sections -->
+            @component('components.navbar')
+            @endcomponent
 
             <section class="intro_section page_mainslider cs">
                 <div class="flexslider">
@@ -123,7 +74,7 @@
                                             <div class="slide_description">
                                                 <div class="intro-layer">
                                                     <h3 class="bold big">
-                                                    DISEÑAMOS
+                                                        DISEÑAMOS
                                                     </h3>
                                                     <p class="bold">
                                                         Tableros de Control para diferentes procesos,
@@ -150,7 +101,7 @@
                                             <div class="slide_description">
                                                 <div class="intro-layer">
                                                     <h3 class="bold big">
-                                                    ACTUALIZAMOS
+                                                        ACTUALIZAMOS
                                                     </h3>
                                                     <p class="bold">Motores de gas para mejorar su rendimiento.</p>
                                                 </div>
@@ -173,7 +124,7 @@
                                             <div class="slide_description">
                                                 <div class="intro-layer">
                                                     <h3 class="bold big">
-                                                    UNA BUJÍA PARA TODOS
+                                                        UNA BUJÍA PARA TODOS
                                                     </h3>
                                                     <p class="bold">
                                                         La familia de bujías de DENSO no tiene igual en longevidad,
@@ -226,20 +177,20 @@
             </section>
 
             <section class="ls ms section_padding_145">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3 text-center text-sm-left">
-							<h2 class="section_header">
-								Nuestra Identidad
-							</h2>
-							<hr class="divider_2_30 left main_bg_color divider_35">
-						</div>
-						<div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
-							<div class="with_padding text-center cs main_color2 with_bottom_border">
-								<span class="image_icon">
-									<img src="./images/icon1.png" alt="">
-								</span>
-								<h3 class="highlight medium">Nuestra Misión</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3 text-center text-sm-left">
+                            <h2 class="section_header">
+                                Nuestra Identidad
+                            </h2>
+                            <hr class="divider_2_30 left main_bg_color divider_35">
+                        </div>
+                        <div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
+                            <div class="with_padding text-center cs main_color2 with_bottom_border">
+                                <span class="image_icon">
+                                    <img src="./images/icon1.png" alt="">
+                                </span>
+                                <h3 class="highlight medium">Nuestra Misión</h3>
                                 <div class="border-paragraphs middle-borders bold bottommargin_0 greylinks">
                                     <p>
                                         <a href="#">Automatizar todos los procesos.</a>
@@ -254,15 +205,15 @@
                                         <a href="#">Diseñar y fabricar productos o proyectos de calidad
                                             <br>para el mercado nacional e internacional.</a>
                                     </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
-							<div class="with_padding text-center cs main_color2 with_bottom_border">
-								<span class="image_icon">
-									<img src="./images/icon2.png" alt="">
-								</span>
-								<h3 class="highlight medium">Nuestra Visión</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
+                            <div class="with_padding text-center cs main_color2 with_bottom_border">
+                                <span class="image_icon">
+                                    <img src="./images/icon2.png" alt="">
+                                </span>
+                                <h3 class="highlight medium">Nuestra Visión</h3>
                                 <div class="border-paragraphs middle-borders bold bottommargin_0 greylinks">
                                     <p>
                                         <a href="#">ICI Industrial será una empresa innovadora
@@ -284,15 +235,15 @@
                                         <a href="#">Crecer nuestra fabricación de sistemas de control con el más alto
                                             estándar de calidad en nuestros productos fabricados</a>
                                     </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
-							<div class="with_padding text-center cs main_color2 with_bottom_border">
-								<span class="image_icon">
-									<img src="./images/icon3.png" alt="">
-								</span>
-								<h3 class="highlight medium">Objetivos</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
+                            <div class="with_padding text-center cs main_color2 with_bottom_border">
+                                <span class="image_icon">
+                                    <img src="./images/icon3.png" alt="">
+                                </span>
+                                <h3 class="highlight medium">Objetivos</h3>
                                 <div class="border-paragraphs middle-borders bold bottommargin_0 greylinks">
                                     <p>
                                         <a href="#">Convertir nuestra empresa en una rentable para inversionistas.</a>
@@ -306,12 +257,12 @@
                                     <p>
                                         <a href="#">Desarrollar productos o proyectos sustentables y duraderos.</a>
                                     </p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
             <section class="cs main_color2 section_padding_top_145 section_padding_bottom_130 columns_margin_bottom_30">
@@ -399,99 +350,100 @@
                     </div>
                 </div>
             </section>
+        </div>
 
-            <footer class="page_footer cs mx-auto section_padding_top_30 columns_margin_0">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6 col-md-6">
-							<a href="./" class="logo">
-								<img src="images/logo.png" alt="">
-								<span class="logo_text">
-									<span class="highlight kanit bold">Oildrop
-										<br> global</span>
-									<span class="small-text">test with the best</span>
-								</span>
-							</a>
-							<p class="topmargin_30">
-								Everyday is a new day for us and we work really hard to satisfy our customer everywhere.
-							</p>
-							<div class="page_social_icons greylinks">
-								<a class="social-icon border-icon rounded-icon soc-facebook" href="#" title="Facebook"></a>
-							</div>
-						</div>
+        <footer class="page_footer cs mx-auto section_padding_top_30 columns_margin_0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <a href="./" class="logo">
+                            <img src="images/logo.png" alt="">
+                            <span class="logo_text">
+                                <span class="highlight kanit bold">Oildrop
+                                    <br> global</span>
+                                <span class="small-text">test with the best</span>
+                            </span>
+                        </a>
+                        <p class="topmargin_30">
+                            Everyday is a new day for us and we work really hard to satisfy our customer everywhere.
+                        </p>
+                        <div class="page_social_icons greylinks">
+                            <a class="social-icon border-icon rounded-icon soc-facebook" href="#" title="Facebook"></a>
+                        </div>
+                    </div>
 
-						<div class="col-lg-offset-0 col-lg-6 col-md-offset-6 col-md-6">
-							<div class="row topmargin_40">
-								<div class="col-lg-12 col-md-6">
-									<div class="media thin_teaser inline-block bottommargin_20">
-										<div class="media-left media-middle">
-											<div class="teaser_icon border_icon round">
-												<i class="icon-phone black"></i>
-											</div>
-										</div>
-										<div class="media-body media-middle">
-											<p class="kanit text-uppercase bold highlight fontsize_14">
-												Agenda una llamada con
-												<br>
-												<span class="fontsize_18 black">nuestros asesores</span>
-											</p>
-										</div>
-									</div>
-								</div>
+                    <div class="col-lg-offset-0 col-lg-6 col-md-offset-6 col-md-6">
+                        <div class="row topmargin_40">
+                            <div class="col-lg-12 col-md-6">
+                                <div class="media thin_teaser inline-block bottommargin_20">
+                                    <div class="media-left media-middle">
+                                        <div class="teaser_icon border_icon round">
+                                            <i class="icon-phone black"></i>
+                                        </div>
+                                    </div>
+                                    <div class="media-body media-middle">
+                                        <p class="kanit text-uppercase bold highlight fontsize_14">
+                                            Agenda una llamada con
+                                            <br>
+                                            <span class="fontsize_18 black">nuestros asesores</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
-								<div class="col-lg-12 col-md-6">
-									<div class="media thin_teaser inline-block bottommargin_20">
-										<div class="media-left media-middle">
-											<div class="teaser_icon border_icon round">
-												<i class="icon-calculator black"></i>
-											</div>
-										</div>
-										<div class="media-body media-middle">
-											<p class="kanit text-uppercase bold highlight fontsize_14">
-												Cotiza tu
-												<br>
-												<span class="fontsize_18 black">proyecto</span>
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-12 col-md-6">
-									<div class="media thin_teaser inline-block bottommargin_20">
-										<div class="media-left media-middle">
-											<div class="teaser_icon border_icon round">
-												<i class="icon-meetings black"></i>
-											</div>
-										</div>
-										<div class="media-body media-middle">
-											<p class="kanit text-uppercase bold highlight fontsize_14">
-												Agenda una reunion
-												<br>
-												<span class="fontsize_18 black">presencial</span>
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-12 col-md-6">
-									<div class="media thin_teaser inline-block bottommargin_20">
-										<div class="media-left media-middle">
-											<div class="teaser_icon border_icon round">
-												<i class="icon-lock black"></i>
-											</div>
-										</div>
-										<div class="media-body media-middle">
-											<p class="kanit text-uppercase bold highlight fontsize_14">
-												Tu informacion esta segura  &amp; protegida
-												<br>
-												<span class="fontsize_18 black">garantia de privacidad</span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
+                            <div class="col-lg-12 col-md-6">
+                                <div class="media thin_teaser inline-block bottommargin_20">
+                                    <div class="media-left media-middle">
+                                        <div class="teaser_icon border_icon round">
+                                            <i class="icon-calculator black"></i>
+                                        </div>
+                                    </div>
+                                    <div class="media-body media-middle">
+                                        <p class="kanit text-uppercase bold highlight fontsize_14">
+                                            Cotiza tu
+                                            <br>
+                                            <span class="fontsize_18 black">proyecto</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-6">
+                                <div class="media thin_teaser inline-block bottommargin_20">
+                                    <div class="media-left media-middle">
+                                        <div class="teaser_icon border_icon round">
+                                            <i class="icon-meetings black"></i>
+                                        </div>
+                                    </div>
+                                    <div class="media-body media-middle">
+                                        <p class="kanit text-uppercase bold highlight fontsize_14">
+                                            Agenda una reunion
+                                            <br>
+                                            <span class="fontsize_18 black">presencial</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-6">
+                                <div class="media thin_teaser inline-block bottommargin_20">
+                                    <div class="media-left media-middle">
+                                        <div class="teaser_icon border_icon round">
+                                            <i class="icon-lock black"></i>
+                                        </div>
+                                    </div>
+                                    <div class="media-body media-middle">
+                                        <p class="kanit text-uppercase bold highlight fontsize_14">
+                                            Tu informacion esta segura &amp; protegida
+                                            <br>
+                                            <span class="fontsize_18 black">garantia de privacidad</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <!-- eof #box_wrapper -->
     </div>
     <!-- eof #canvas -->

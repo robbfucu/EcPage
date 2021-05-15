@@ -11,7 +11,7 @@
                             </li>
 
                             <li>
-                                <a href="about.html">QUIÉNES SOMOS</a>
+                                <a href="{{route('acerca')}}">QUIÉNES SOMOS</a>
                             </li>
                             <li>
                                 <a href="#">PRODUCTOS</a>
@@ -20,12 +20,12 @@
                                         <a href="{{route('marcas')}}">MARCAS</a>
                                     </li>
                                     <li>
-                                        <a href="aplicaciones.html">APLICACIONES</a>
+                                        <a href="{{route('aplicaciones')}}">APLICACIONES</a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="services.html">SERVICIOS</a>
+                                <a href="{{route('servicios')}}">SERVICIOS</a>
                             </li>
                             <!-- eof features -->
 
@@ -37,7 +37,7 @@
 
                             <!-- contacts -->
                             <li>
-                                <a href="contact.html">Contáctanos</a>
+                                <a href="{{route('contacto')}}">Contáctanos</a>
                             </li>
                             <!-- eof contacts -->
                             <li>

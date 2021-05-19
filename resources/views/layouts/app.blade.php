@@ -61,30 +61,11 @@
             @component('components.navbar')
             @endcomponent
 
-            <section class="page_breadcrumbs ls ms ms_dark section_padding_25">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 text-center">
-                            <h1 class="highlight2 bold bottommargin_5">Single service</h1>
-                            <ol class="breadcrumb">
-                                <li>
-                                    <a href="./">
-                                        HomePage
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">Services</a>
-                                </li>
-                                <li class="active"> Single service</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             @yield('content')
 
         </div>
+        @component('components.footer')
+        @endcomponent
         <!-- eof #box_wrapper -->
     </div>
     <!-- eof #canvas -->

@@ -28,15 +28,9 @@
                     de dejar un trabajo que exceda las expectativas de nuestros clientes.
                 </p>
             </div>
-            <div class="col-md-3">
-                <img src="./images/inge.png" alt="">
-            </div>
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <h1 class="highlight2 bold bottommargin_5">
-                    FUNDACION ICI INDUSTRIAL
-                </h1>
                 <h4 class="highlight2">
                     Diseñando sistemas autónomos eficientes para los clientes
                 </h4>

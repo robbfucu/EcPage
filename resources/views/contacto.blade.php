@@ -117,7 +117,6 @@
                             <br>
                             <span class="fontsize_18 highlight2">+52 (993) 338 21 92</span>
                             <br>
-                            <a href="tel:600123456" class="fontsize_18 highlight2">Llame Ahora</a>
                         </p>
                     </div>
                 </div>

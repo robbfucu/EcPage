@@ -26,7 +26,7 @@
                     <div class="isotope-item col-lg-6 col-md-6 col-sm-12 photography">
                         <div class="vertical-item content-padding gallery-extended-item with_background text-center">
                             <div class="item-media">
-                                <img src="images/gallery/01.jpg" alt="">
+                                <img src="./images/control-motores.jpeg" alt="" width="800" height="800">
                                 <div class="media-links">
                                     <a class="abs-link" title="" href="gallery-single.html"></a>
                                 </div>
@@ -54,7 +54,7 @@
                     <div class="isotope-item col-lg-6 col-md-6 col-sm-12 development programming">
                         <div class="vertical-item content-padding gallery-extended-item with_background text-center">
                             <div class="item-media">
-                                <img src="images/gallery/02.jpg" alt="">
+                                <img src="./images/generador-nitrogeno.jpeg" alt="" width="800" height="800">
                                 <div class="media-links">
                                     <a class="abs-link" title="" href="gallery-single.html"></a>
                                 </div>
@@ -82,7 +82,7 @@
                     <div class="isotope-item col-lg-6 col-md-6 col-sm-12 development photography">
                         <div class="vertical-item content-padding gallery-extended-item with_background text-center">
                             <div class="item-media">
-                                <img src="images/gallery/03.jpg" alt="">
+                                <img src="./images/tablero.jpeg" alt="" width="800" height="800">
                                 <div class="media-links">
                                     <a class="abs-link" title="" href="gallery-single.html"></a>
                                 </div>
@@ -106,7 +106,7 @@
                     <div class="isotope-item col-lg-6 col-md-6 col-sm-12 photography webdesign">
                         <div class="vertical-item content-padding gallery-extended-item with_background text-center">
                             <div class="item-media">
-                                <img src="images/gallery/04.jpg" alt="">
+                                <img src="./images/tablero2.jpeg" alt="" width="800" height="800">
                                 <div class="media-links">
                                     <a class="abs-link" title="" href="gallery-single.html"></a>
                                 </div>

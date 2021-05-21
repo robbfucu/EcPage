@@ -129,14 +129,6 @@
                     </div>
 
                 </div>
-                <!-- eof .isotope_container.row -->
-
-                <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <i class="fa fa-circle-o-notch fa-spin loadmore_spinner"></i>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>

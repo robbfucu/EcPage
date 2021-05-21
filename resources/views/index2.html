@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <title>OilDrop</title>
+    <meta charset="utf-8">
+    <!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css" id="color-switcher-link">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+    <!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+    <div class="preloader">
+        <div class="preloader_image"></div>
+    </div>
+
+    <!-- wrappers for visual page editor and boxed version of template -->
+    <div id="canvas">
+        <div id="box_wrapper">
+
+            <!-- template sections -->
+
+            <section class="page_topline ls table_section table_section_md">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 text-center text-md-left">
+                            <span class="kanit text-uppercase bold fontsize_12">
+                                <i class="icon-map-marker highlight fontsize_16"></i>Senda de la Lluvia
+                                <span class="highlight fontsize_14">5/2</span> Tabasco,
+                                <span class="highlight">Mexico
+                                    <span class="fontsize_14">86284</span>
+                                </span>
+                            </span>
+                            <span class="kanit text-uppercase bold fontsize_12">
+                                <i class="icon-phone highlight fontsize_16"></i> Contactanos!
+                                <span class="fontsize_14 highlight">+52 (993) 338 21 92</span>
+                            </span>
+                        </div>
+                        <div class="col-md-3 text-center text-md-right">
+                            <a href="tel:9933382049" class="fontsize_18 highlight2 theme_button color1">Llame Ahora</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <header class="page_header cs main_color2 theme_header bordered_items floating_logo table_section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-10">
+                            <!-- main nav start -->
+                            <nav class="mainmenu_wrapper">
+                                <ul class="mainmenu nav sf-menu">
+                                    <li class="active">
+                                        <a href="{{route('inicio')}}">INICIO</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{route('acerca')}}">NOSOTROS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">PRODUCTOS</a>
+                                        <ul>
+                                            <li>
+                                                <a href="{{route('marcas')}}">MARCAS</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{route('aplicaciones')}}">APLICACIONES</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="{{route('servicios')}}">SERVICIOS</a>
+                                    </li>
+                                    <!-- eof features -->
+
+                                    <!-- blog -->
+                                    <li>
+                                        <a href="blog-full.html">NOVEDADES</a>
+                                    </li>
+                                    <!-- eof blog -->
+
+                                    <!-- contacts -->
+                                    <li>
+                                        <a href="{{route('contacto')}}">CONTACTO</a>
+                                    </li>
+                                    <!-- eof contacts -->
+                                </ul>
+                            </nav>
+                            <!-- eof main nav -->
+                            <span class="toggle_menu">
+                                <span></span>
+                            </span>
+                        </div>
+                        <div class="col-md-4 col-lg-2">
+                            <a href="./" class="logo">
+                                <img src="./images/ici_logo.png" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+
+            <section class="intro_section page_mainslider cs">
+                <div class="flexslider">
+                    <img src="images/engineer.png" alt="" class="slide-person visible-lg-block to_animate"
+                        data-animation="fadeInRight">
+                    <ul class="slides">
+                        <li>
+                            <img src="images/intro_bg.png" alt="" class="slide-bg">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="slide_description_wrapper">
+                                            <div class="slide_description">
+                                                <div class="intro-layer">
+                                                    <h3 class="bold big">
+                                                        DISEÑAMOS
+                                                    </h3>
+                                                    <p class="bold">
+                                                        Tableros de Control para diferentes procesos,
+                                                        con capacidad de expansión a nuevas tecnologías
+                                                        en navegación web.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!-- eof .slide_description -->
+                                        </div>
+                                    </div>
+                                    <!-- eof .col-* -->
+                                </div>
+                                <!-- eof .row -->
+                            </div>
+                            <!-- eof .container -->
+                        </li>
+                        <li>
+                            <img src="images/intro_bg2.png" alt="" class="slide-bg">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="slide_description_wrapper">
+                                            <div class="slide_description">
+                                                <div class="intro-layer">
+                                                    <h3 class="bold big">
+                                                        ACTUALIZAMOS
+                                                    </h3>
+                                                    <p class="bold">Motores de gas para mejorar su rendimiento.</p>
+                                                </div>
+                                            </div>
+                                            <!-- eof .slide_description -->
+                                        </div>
+                                    </div>
+                                    <!-- eof .col-* -->
+                                </div>
+                                <!-- eof .row -->
+                            </div>
+                            <!-- eof .container -->
+                        </li>
+                        <li>
+                            <img src="images/intro_bg.png" alt="" class="slide-bg">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="slide_description_wrapper">
+                                            <div class="slide_description">
+                                                <div class="intro-layer">
+                                                    <h3 class="bold big">
+                                                        UNA BUJÍA PARA TODOS
+                                                    </h3>
+                                                    <p class="bold">
+                                                        La familia de bujías de DENSO no tiene igual en longevidad,
+                                                        durabilidad, mayor potencia, economía y confiabilidad.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!-- eof .slide_description -->
+                                        </div>
+                                    </div>
+                                    <!-- eof .col-* -->
+                                </div>
+                                <!-- eof .row -->
+                            </div>
+                            <!-- eof .container -->
+                        </li>
+                    </ul>
+                </div>
+                <!-- eof flexslider -->
+            </section>
+
+            <section class="ls section_padding_top_145 section_padding_bottom_90 columns_margin_bottom_60">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h2 class="section_header">
+                                Nosotros
+                            </h2>
+                            <hr class="divider_2_30 left-important main_bg_color divider_35">
+                            <a href="about.html" class="theme_button color1 topmargin_10">Mas Informacion</a>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="entry-excerpt highlight2 bottommargin_30">
+                                <a href="">
+                                    Excelencia en el servicio de ingeniería y ventas.
+                                </a>
+                            </p>
+                            <p>
+                                ICI Industrial es una compañía dedicada a la automatización de procesos industriales,
+                                con amplia experiencia en instrumentación de campo. Somos una empresa comprometida con
+                                la calidad en nuestros servicios con la convicción de dejar un trabajo que exceda las
+                                expectativas de nuestros clientes.
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./images/inge.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ls ms section_padding_145">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3 text-center text-sm-left">
+                            <h2 class="section_header">
+                                Nuestra Identidad
+                            </h2>
+                            <hr class="divider_2_30 left main_bg_color divider_35">
+                        </div>
+                        <div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
+                            <div class="with_padding text-center cs main_color2 with_bottom_border">
+                                <span class="image_icon">
+                                    <img src="./images/icon1.png" alt="">
+                                </span>
+                                <h3 class="highlight medium">Nuestra Misión</h3>
+                                <div class="border-paragraphs middle-borders bold bottommargin_0 greylinks">
+                                    <p>
+                                        <a href="#">Automatizar todos los procesos.</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Vender instrumentos de la mejor calidad en el mercado.</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Excelencia en el servicio de ingeniería y ventas.</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Diseñar y fabricar productos o proyectos de calidad
+                                            <br>para el mercado nacional e internacional.</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
+                            <div class="with_padding text-center cs main_color2 with_bottom_border">
+                                <span class="image_icon">
+                                    <img src="./images/icon2.png" alt="">
+                                </span>
+                                <h3 class="highlight medium">Nuestra Visión</h3>
+                                <div class="border-paragraphs middle-borders bold bottommargin_0 greylinks">
+                                    <p>
+                                        <a href="#">ICI Industrial será una empresa innovadora
+                                            en tecnología, flexible al cambio, líderes en automatización.
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Empresa comprometida con el servicio al cliente.</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Expandir nuestros servicios y productos a diferentes sectores
+                                            industriales.</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Empresa confiable para distribuir instrumentos en el sector
+                                            industrial.</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Crecer nuestra fabricación de sistemas de control con el más alto
+                                            estándar de calidad en nuestros productos fabricados</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
+                            <div class="with_padding text-center cs main_color2 with_bottom_border">
+                                <span class="image_icon">
+                                    <img src="./images/icon3.png" alt="">
+                                </span>
+                                <h3 class="highlight medium">Objetivos</h3>
+                                <div class="border-paragraphs middle-borders bold bottommargin_0 greylinks">
+                                    <p>
+                                        <a href="#">Convertir nuestra empresa en una rentable para inversionistas.</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Desarrollar a nuestro personal como primer paso al éxito.</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Incrementar nuestra facturación al 20% anual./a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Desarrollar productos o proyectos sustentables y duraderos.</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="cs main_color2 section_padding_top_145 section_padding_bottom_130 columns_margin_bottom_30">
+                <div class="container">
+                    <div class="row">
+                        <div
+                            class="col-lg-3 col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8 text-center text-sm-left">
+                            <h2 class="section_header">
+                                Novedades
+                            </h2>
+                            <hr class="divider_2_30 left main_bg_color topmargin_30">
+                            <div class="inline-block bottommargin_50">
+                            </div>
+                            <br>
+                            <a href="blog-full.html" class="theme_button color1">Mas Informacion</a>
+                        </div>
+                        <div class="col-lg-3 col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
+                            <article class="vertical-item content-padding ls with_bottom_border topmargin_10">
+                                <div class="item-media">
+                                    <img src="./images/accesoriosr-motortech.png" alt="">
+                                    <div class="media-links">
+                                        <div class="links-wrap">
+                                            <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+                                                href="./images/blog_post1.jpg"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="categories-links small-text big-spacing">
+                                        <a href="#">Controladores</a>
+                                    </div>
+                                    <h3 class="entry-title">
+                                        <a href="blog-single-right.html">Energy for the world</a>
+                                    </h3>
+                                    <p>
+                                        Blinded by desire, that they can fo the pain and trouble that are bound to
+                                        blame.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-lg-3 col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
+                            <article class="vertical-item content-padding ls with_bottom_border topmargin_10">
+                                <div class="item-media">
+                                    <img src="./images/accesoriosr-motortech.png" alt="">
+                                    <div class="media-links">
+                                        <div class="links-wrap">
+                                            <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+                                                href="./images/blog_post2.jpg"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="categories-links small-text big-spacing">
+                                        <a href="#">Controladores</a>
+                                    </div>
+                                    <h3 class="entry-title">
+                                        <a href="blog-single-right.html">A brighter tomorrow starts today</a>
+                                    </h3>
+                                    <p>
+                                        On the other hand enounce with righteous indignation.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-lg-3 col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
+                            <article class="vertical-item content-padding ls with_bottom_border topmargin_10">
+                                <div class="item-media">
+                                    <img src="./images/accesoriosr-motortech.png" alt="">
+                                    <div class="media-links">
+                                        <div class="links-wrap">
+                                            <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]"
+                                                href="./images/blog_post3.jpg"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="categories-links small-text big-spacing">
+                                        <a href="#">Controladores</a>
+                                    </div>
+                                    <h3 class="entry-title">
+                                        <a href="blog-single-right.html">Power for the future</a>
+                                    </h3>
+                                    <p>
+                                        Curabitur sit amet lacinia to justo. In modo, eros eget a commodo condimentum.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ls section_padding_145">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-3">
+                            <h2 class="section_header highlight">
+                                Feedback
+                            </h2>
+                            <hr class="divider_2_30 left-important main_bg_color divider_35">
+                        </div>
+                        <div class="col-md-8 col-lg-9">
+                            <p class="entry-excerpt highlight2 bottommargin_30">
+                                <a href="">Siempre estamos interesados ​​en nuevos proyectos, grandes o pequeños.
+                                    No dude en ponerse en contacto con nosotros en relación con su proyecto.</a>
+                            </p>
+                            <p>
+                                Si desea contactarnos por favor llame al siguiente numero:
+                                <span class="kanit fontsize_18 highlight bold">+52 (993) 338 20 49</span> o
+                                <a href="#" class="bold highlight underlined">envienos un correo</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ls section_padding_30">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="owl-carousel partners-carousel" data-responsive-lg="6" data-responsive-md="5"
+                                data-responsive-sm="3" data-responsive-xs="2" data-margin="0">
+                                <a href="">
+                                    <img src="./images/partners/1.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="./images/partners/2.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="./images/partners/3.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="./images/partners/4.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="./images/partners/5.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="./images/partners/6.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                class="page_copyright cs main_color2 table_section section_padding_top_30 section_padding_bottom_30">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 text-center">
+                            <p class="bold fontsize_12 text-uppercase kanit">Oildrop global - test with the best &copy;
+                                2016.
+                                <span class="black">Created with</span>
+                                <a href="http://modernwebtemplates.com">
+                                    <i class="icon-heart highlight fontsize_14"></i> by MWTemplates</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <!-- eof #box_wrapper -->
+    </div>
+    <!-- eof #canvas -->
+
+    <script src="js/compressed.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <!-- Google Map Script -->
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTwYSMRGuTsmfl2z_zZDStYqMlKtrybxo"></script>
+</body>
+
+</html>

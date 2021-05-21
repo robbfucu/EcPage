@@ -89,7 +89,7 @@
                             </div>
                             <div class="item-content">
                                 <h3 class="item-title">
-                                    <a href="gallery-single.html">Tablero de control para motor a Gas</a>
+                                    <a href="galllery-single.html">Tablero de control para motor a Gas</a>
                                 </h3>
                                 <p>El “Tablero de control para motor a gas” es un sistema de monitoreo y
                                     protección local para motores a gas</p>

@@ -56,7 +56,7 @@
                     <nav class="mainmenu_wrapper">
                         <ul class="mainmenu nav sf-menu">
                             <li class="active">
-                                <a href="{{route('inicio')}}">Inicio</a>
+                                <a href="{{route('inicio')}}">INICIO</a>
                             </li>
 
                             <li>

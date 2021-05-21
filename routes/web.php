@@ -1,6 +1,9 @@
 <?php
 
+use App\Mail\ContactoMail;
 use App\Models\Marca;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,6 +23,10 @@ Route::get('/', function () {
 
 Route::get('/contacto', function () {
     return view('contacto');
+})->name('contacto');
+
+Route::post('/contacto', function (Request $request) {
+    Mail::to('site@iciindustrial.com')->send(new ContactoMail($request));
 })->name('contacto');
 
 Route::get('/acerca', function () {

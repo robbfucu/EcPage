@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layouts.app')
 @section('content')
 @foreach($marcas as $marca)
 <section class="ls section_padding_145 service_single">

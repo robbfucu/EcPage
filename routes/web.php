@@ -43,3 +43,11 @@ Route::get('/marcas', function () {
 Route::get('/aplicaciones', function () {
     return view('aplicaciones');
 })->name('aplicaciones');
+
+Route::get('/gallery-single.html', function () {
+    return view('gallery-single');
+});
+
+Route::get('/index2.html', function () {
+    return view('index2');
+});

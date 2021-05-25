@@ -61,7 +61,7 @@
                         <img src="./images/accesoriosr-motortech.png" alt="">
                         <div class="media-links">
                             <div class="links-wrap">
-                                <a class="p-link" title="" href="blog-single-right.html"></a>
+                                <a class="p-link" title="" href="{{route('novedades.show', 'test')}}"></a>
                             </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                             <a href="#">Controladores</a>
                         </div>
                         <h3 class="entry-title">
-                            <a href="blog-single-right.html">Motortech</a>
+                            <a href="{{route('novedades.show', 'test')}}">Motortech</a>
                         </h3>
                         <p>
                             MOTORTECH se ha convertido en uno de los principales fabricantes
@@ -86,7 +86,7 @@
                         <img src="./images/accesoriosr-motortech.png" alt="">
                         <div class="media-links">
                             <div class="links-wrap">
-                                <a class="p-link" title="" href="blog-single-right.html"></a>
+                                <a class="p-link" title="" href="{{route('novedades.show', 'test')}}"></a>
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                             <a href="#">Controladores</a>
                         </div>
                         <h3 class="entry-title">
-                            <a href="blog-single-right.html">Motortech</a>
+                            <a href="{{route('novedades.show', 'test')}}">Motortech</a>
                         </h3>
                         <p>
                             MOTORTECH se ha convertido en uno de los principales fabricantes
@@ -111,7 +111,7 @@
                         <img src="./images/accesoriosr-motortech.png" alt="">
                         <div class="media-links">
                             <div class="links-wrap">
-                                <a class="p-link" title="" href="blog-single-right.html"></a>
+                                <a class="p-link" title="" href="{{route('novedades.show', 'test')}}"></a>
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                             <a href="#">Controladores</a>
                         </div>
                         <h3 class="entry-title">
-                            <a href="blog-single-right.html">Motortech</a>
+                            <a href="{{route('novedades.show', 'test')}}">Motortech</a>
                         </h3>
                         <p>
                             MOTORTECH se ha convertido en uno de los principales fabricantes
@@ -136,7 +136,7 @@
                         <img src="./images/accesoriosr-motortech.png" alt="">
                         <div class="media-links">
                             <div class="links-wrap">
-                                <a class="p-link" title="" href="blog-single-right.html"></a>
+                                <a class="p-link" title="" href="{{route('novedades.show', 'test')}}"></a>
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
                             <a href="#">Controladores</a>
                         </div>
                         <h3 class="entry-title">
-                            <a href="blog-single-right.html">Motortech</a>
+                            <a href="{{route('novedades.show', 'test')}}">Motortech</a>
                         </h3>
                         <p>
                             MOTORTECH se ha convertido en uno de los principales fabricantes

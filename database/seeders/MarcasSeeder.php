@@ -63,4 +63,4 @@ class MarcasSeeder extends Seeder
             'url' => 'https://www.weidmuller.com.mx/'
         ]);
     }
-    }
+}

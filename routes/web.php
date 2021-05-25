@@ -37,10 +37,6 @@ Route::get('/servicios', function () {
     return view('servicios');
 })->name('servicios');
 
-Route::get('/novedades', function () {
-    return view('novedades');
-})->name('novedades');
-
 Route::get('/marcas', function () {
     return view('marcas')->with([
         'marcas' => Marca::all()
@@ -51,10 +47,16 @@ Route::get('/aplicaciones', function () {
     return view('aplicaciones');
 })->name('aplicaciones');
 
-Route::get('/gallery-single.html', function () {
-    return view('gallery-single');
-});
-
 Route::get('/index2.html', function () {
     return view('index2');
+});
+
+Route::prefix('novedades')->group(function () {
+    Route::get('/', function () {
+        return view('novedades.index');
+    })->name('novedades.index');
+
+    Route::get('{slug}', function () {
+        return view('novedades.show');
+    })->name('novedades.show');
 });

@@ -80,7 +80,7 @@
 
                             <!-- blog -->
                             <li>
-                                <a href="{{route('novedades')}}">NOVEDADES</a>
+                                <a href="{{route('novedades.index')}}">NOVEDADES</a>
                             </li>
                             <!-- eof blog -->
 

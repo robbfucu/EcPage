@@ -29,7 +29,7 @@ class MarcasSeeder extends Seeder
         Marca::create([
             'nombre' => 'Ashcroft',
             'descripcion' => 'Nuestra pasión es diseñar, fabricar y entregar los instrumentos de temperatura y presión más innovadores y mejor diseñados para que siempre pueda confiar en el escudo.',
-            'logo' => 'images/murphy.jpeg',
+            'logo' => 'images/ashcroft.png',
             'url' => 'http://www.ashcroft.com'
         ]);
         Marca::create([

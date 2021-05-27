@@ -28,7 +28,7 @@
                             <div class="item-media">
                                 <img src="./images/control-motores.jpeg" alt="" width="800" height="800">
                                 <div class="media-links">
-                                    <a class="abs-link" title="" href="gallery-single.html"></a>
+                                    <a class="abs-link" title="" href="#"></a>
                                 </div>
                             </div>
                             <div class="item-content">
@@ -56,7 +56,7 @@
                             <div class="item-media">
                                 <img src="./images/generador-nitrogeno.jpeg" alt="" width="800" height="800">
                                 <div class="media-links">
-                                    <a class="abs-link" title="" href="gallery-single.html"></a>
+                                    <a class="abs-link" title="" href="#"></a>
                                 </div>
                             </div>
                             <div class="item-content">
@@ -84,7 +84,7 @@
                             <div class="item-media">
                                 <img src="./images/tablero.jpeg" alt="" width="800" height="800">
                                 <div class="media-links">
-                                    <a class="abs-link" title="" href="gallery-single.html"></a>
+                                    <a class="abs-link" title="" href="#"></a>
                                 </div>
                             </div>
                             <div class="item-content">
@@ -108,7 +108,7 @@
                             <div class="item-media">
                                 <img src="./images/tablero2.jpeg" alt="" width="800" height="800">
                                 <div class="media-links">
-                                    <a class="abs-link" title="" href="gallery-single.html"></a>
+                                    <a class="abs-link" title="" href="#"></a>
                                 </div>
                             </div>
                             <div class="item-content">

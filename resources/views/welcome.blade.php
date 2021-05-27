@@ -232,10 +232,11 @@
                             <a href="#">Controladores</a>
                         </div>
                         <h3 class="entry-title">
-                            <a href="blog-single-right.html">Energy for the world</a>
+                            <a href="blog-single-right.html">MOTORTECH, principales fabricantes de controladores de encendido</a>
                         </h3>
                         <p>
-                            Blinded by desire, that they can fo the pain and trouble that are bound to blame.
+                        MOTORTECH se ha convertido en uno de los principales fabricantes de
+                        controladores de encendido en el mercado global para motores de gas industriales.
                         </p>
                     </div>
                 </article>
@@ -255,10 +256,11 @@
                             <a href="#">Controladores</a>
                         </div>
                         <h3 class="entry-title">
-                            <a href="blog-single-right.html">A brighter tomorrow starts today</a>
+                            <a href="blog-single-right.html">Tipos de Mantenimiento Industrial</a>
                         </h3>
                         <p>
-                            On the other hand enounce with righteous indignation.
+                        Es básico que todo profesional conozca los tipos de mantenimiento industrial existentes.
+                        Solo de esta forma podrá descubrir los pros y contras de cada uno y establecer un plan de mantenimiento adecuado para su empresa.
                         </p>
                     </div>
                 </article>
@@ -278,10 +280,11 @@
                             <a href="#">Controladores</a>
                         </div>
                         <h3 class="entry-title">
-                            <a href="blog-single-right.html">Power for the future</a>
+                            <a href="blog-single-right.html">La automatización y sus aplicaciones en la industria</a>
                         </h3>
                         <p>
-                            Curabitur sit amet lacinia to justo. In modo, eros eget a commodo condimentum.
+                        El desarrollo e innovación de nuevas tecnologías,
+                        la automatización de procesos industriales, a través de los años, ha dado lugar a diversos avances significativos.
                         </p>
                     </div>
                 </article>

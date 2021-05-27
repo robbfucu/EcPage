@@ -70,7 +70,7 @@
                             <a href="#">Controladores</a>
                         </div>
                         <h3 class="entry-title">
-                            <a href="{{route('novedades.show', 'test')}}">Motortech</a>
+                            <a href="{{route('novedades.show', 'test')}}">MOTORTECH, principales fabricantes de controladores de encendido</a>
                         </h3>
                         <p>
                             MOTORTECH se ha convertido en uno de los principales fabricantes
@@ -95,12 +95,11 @@
                             <a href="#">Controladores</a>
                         </div>
                         <h3 class="entry-title">
-                            <a href="{{route('novedades.show', 'test')}}">Motortech</a>
+                            <a href="{{route('novedades.show', 'test')}}">Tipos de Mantenimiento Industrial</a>
                         </h3>
                         <p>
-                            MOTORTECH se ha convertido en uno de los principales fabricantes
-                            de controladores de encendido en el mercado global para motores de gas
-                            industriales.
+                        Es básico que todo profesional conozca los tipos de mantenimiento industrial existentes.
+                        Solo de esta forma podrá descubrir los pros y contras de cada uno y establecer un plan de mantenimiento adecuado para su empresa.
                         </p>
                     </div>
                 </article>
@@ -120,12 +119,11 @@
                             <a href="#">Controladores</a>
                         </div>
                         <h3 class="entry-title">
-                            <a href="{{route('novedades.show', 'test')}}">Motortech</a>
+                            <a href="{{route('novedades.show', 'test')}}">La automatización y sus aplicaciones en la industria</a>
                         </h3>
                         <p>
-                            MOTORTECH se ha convertido en uno de los principales fabricantes
-                            de controladores de encendido en el mercado global para motores de gas
-                            industriales.
+                        El desarrollo e innovación de nuevas tecnologías,
+                        la automatización de procesos industriales, a través de los años, ha dado lugar a diversos avances significativos.
                         </p>
                     </div>
                 </article>

@@ -60,3 +60,7 @@ Route::prefix('novedades')->group(function () {
         return view('novedades.show');
     })->name('novedades.show');
 });
+
+Route::get('/gallery-single.html', function () {
+    return view('gallery-single');
+});

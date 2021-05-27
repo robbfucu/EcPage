@@ -1,5 +1,9 @@
 <?php
 
+use App\Mail\ContactoMail;
+use App\Models\Marca;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,27 +19,48 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('inicio');
 
-Route::get('/contact.html', function () {
-    return view('contact');
-});
+Route::get('/contacto', function () {
+    return view('contacto');
+})->name('contacto');
 
-Route::get('/about.html', function () {
-    return view('about');
-});
+Route::post('/contacto', function (Request $request) {
+    Mail::to('site@iciindustrial.com')->send(new ContactoMail($request));
+})->name('contacto');
 
-Route::get('/services.html', function () {
-    return view('services');
-});
-Route::get('/blog-full.html', function () {
-    return view('blog-full');
-});
+Route::get('/acerca', function () {
+    return view('acerca');
+})->name('acerca');
 
-Route::get('/service-single.html', function () {
-    return view('service-single');
-});
+Route::get('/servicios', function () {
+    return view('servicios');
+})->name('servicios');
 
-Route::get('/aplicaciones.html', function () {
+Route::get('/marcas', function () {
+    return view('marcas')->with([
+        'marcas' => Marca::all()
+    ]);
+})->name('marcas');
+
+Route::get('/aplicaciones', function () {
     return view('aplicaciones');
+})->name('aplicaciones');
+
+Route::get('/index2.html', function () {
+    return view('index2');
+});
+
+Route::prefix('novedades')->group(function () {
+    Route::get('/', function () {
+        return view('novedades.index');
+    })->name('novedades.index');
+
+    Route::get('{slug}', function () {
+        return view('novedades.show');
+    })->name('novedades.show');
+});
+
+Route::get('/gallery-single.html', function () {
+    return view('gallery-single');
 });

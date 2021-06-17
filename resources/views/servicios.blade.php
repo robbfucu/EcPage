@@ -18,7 +18,7 @@
                 <div class="teaser">
                     <div class="main_bg_color2 size_normal round overlapped-icon">
                         <!-- <i class="icon-thermal-power highlight"></i> -->
-                        <img src="./images/panel-de-control-3.png" alt="">
+                        <img src="./images/PANEL.png" alt="">
                     </div>
                     <h4 class="text-uppercase">TABLEROS DE CONTROL</h4>
                     <hr class="divider_2_30 left main_bg_color">
@@ -32,7 +32,7 @@
                 <div class="teaser">
                     <div class="main_bg_color2 size_normal round overlapped-icon">
                         <!-- <i class="icon-oil-platform highlight"></i> -->
-                        <img src="./images/informacion-1.png" alt="">
+                        <img src="./images/INFO.png" alt="">
                     </div>
                     <h4 class="text-uppercase">DESARROLLO DE SOFTWARE</h4>
                     <hr class="divider_2_30 left main_bg_color">
@@ -46,7 +46,7 @@
                 <div class="teaser">
                     <div class="main_bg_color2 size_normal round overlapped-icon">
                         <!-- <i class="icon-gas-flaring highlight"></i> -->
-                        <img src="./images/administracion-1.png" alt="">
+                        <img src="./images/ADMIN.png" alt="">
                     </div>
                     <h4 class="text-uppercase">INSTRUMENTACIÓN</h4>
                     <hr class="divider_2_30 left main_bg_color">
@@ -60,7 +60,7 @@
                 <div class="teaser">
                     <div class="main_bg_color2 size_normal round overlapped-icon">
                         <!-- <i class="icon-oil-pump highlight"></i> -->
-                        <img src="./images/mantenimiento-3.png" alt="">
+                        <img src="./images/MANT3.png" alt="">
                     </div>
                     <h4 class="text-uppercase">INSTALACIÓN</h4>
                     <hr class="divider_2_30 left main_bg_color">
@@ -74,7 +74,7 @@
                 <div class="teaser">
                     <div class="main_bg_color2 size_normal round overlapped-icon">
                         <!-- <i class="icon-oil-refinery highlight"></i> -->
-                        <img src="./images/bombear-3.png" alt="">
+                        <img src="./images/BOMBEAR.png" alt="">
                     </div>
                     <h4 class="text-uppercase">DESARROLLO DE APLICACIONES</h4>
                     <hr class="divider_2_30 left main_bg_color">
@@ -88,7 +88,7 @@
                 <div class="teaser">
                     <div class="main_bg_color2 size_normal round overlapped-icon">
                         <!-- <i class="icon-factory highlight"></i> -->
-                        <img src="./images/mantenimiento-1.png" alt="">
+                        <img src="./images/MANT.png" alt="">
                     </div>
                     <h4 class="text-uppercase">CALIBRACION Y MANTENIMIENTO</h4>
                     <hr class="divider_2_30 left main_bg_color">

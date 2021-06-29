@@ -2,7 +2,7 @@
 @section('content')
 <section class="intro_section page_mainslider cs">
     <div class="flexslider">
-        <img src="images/engineer.png" alt="" class="slide-person visible-lg-block to_animate" data-animation="fadeInRight">
+        <img src="images/Hand.png" alt="" class="slide-person visible-lg-block to_animate" data-animation="fadeInRight">
         <ul class="slides">
             <li>
                 <img src="images/intro_bg.png" alt="" class="slide-bg">
@@ -215,7 +215,7 @@
                 <div class="inline-block bottommargin_50">
                 </div>
                 <br>
-                <a href="blog-full.html" class="theme_button color1">Mas Informacion</a>
+                <a href="{{route('novedades.index')}}" class="theme_button color1">Mas Informacion</a>
             </div>
             <div class="col-lg-3 col-md-offset-0 col-md-6 col-sm-offset-2 col-sm-8">
                 <article class="vertical-item content-padding ls with_bottom_border topmargin_10">

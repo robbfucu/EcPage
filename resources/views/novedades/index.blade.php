@@ -21,20 +21,20 @@
                     <div class="carousel-inner">
                         <div class="item text-center active">
                             <h3 class="black roboto section_header big">
-                                Vital oil and natural
-                                <br> gas resources
+                                MOTORTECH,
+                                <br> principales fabricantes de controladores de encendido
                             </h3>
                         </div>
                         <div class="item text-center">
                             <h3 class="black roboto section_header big">
-                                Vital oil and natural
-                                <br> gas resources
+                                Tipos de
+                                <br>Mantenimiento Industrial
                             </h3>
                         </div>
                         <div class="item text-center">
                             <h3 class="black roboto section_header big">
-                                Vital oil and natural
-                                <br> gas resources
+                                La automatización
+                                <br> y sus aplicaciones en la industria
                             </h3>
                         </div>
                     </div>

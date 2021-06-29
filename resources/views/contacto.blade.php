@@ -18,8 +18,7 @@
 <section id="map" class="ls" data-address="40 Blandford St Marylebone, London">
     <!-- marker description and marker icon goes here -->
     <div class="map_marker_description">
-        <h3>UBICACIÓN</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d949.2798663248235!2d-92.9242673!3d17.8798666!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85edda890e4e81a3%3A0xb95f3b16ade2d69!2sICI%20INDUSTRIAL!5e0!3m2!1sen!2smx!4v1619731819276!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+        <iframe id="map" style="border:0; width: 100%;" class="ls page_map" data-address="40 Blandford St Marylebone, London" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d949.2798663248235!2d-92.9242673!3d17.8798666!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85edda890e4e81a3%3A0xb95f3b16ade2d69!2sICI%20INDUSTRIAL!5e0!3m2!1sen!2smx!4v1619731819276!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
         </iframe>
     </div>
 </section>

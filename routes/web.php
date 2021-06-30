@@ -26,7 +26,7 @@ Route::get('/contacto', function () {
 })->name('contacto');
 
 Route::post('/contacto', function (Request $request) {
-    Mail::to('site@iciindustrial.com')->send(new ContactoMail($request));
+    Mail::send(new ContactoMail($request));
 })->name('contacto');
 
 Route::get('/acerca', function () {

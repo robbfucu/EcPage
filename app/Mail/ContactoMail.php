@@ -31,6 +31,6 @@ class ContactoMail extends Mailable
      */
     public function build()
     {
-        return $this->from('site@iciindustrial.com')->markdown('emails.contacto');
+        return $this->from(env('MAIL_FROM_ADDRESS'))->to(env('MAIL_FROM_ADDRESS'))->replyTo($this->datos->email)->markdown('emails.contacto')->with($this->datos->all());
     }
 }

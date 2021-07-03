@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-4 col-lg-3 text-center text-md-left">
                 <a href="./" class="logo">
-                    <img src="./images/ici_logo.png" alt="">
+                    <img src="./images/ici_logo.png" alt="" style="max-width: 200px">
                 </a>
             </div>
             <div class="col-md-2 col-lg-3 text-center text-md-left hidden-md">

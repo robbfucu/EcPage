@@ -54,32 +54,6 @@
                 </div>
                 <!-- eof .container -->
             </li>
-            <li>
-                <img src="images/intro_bg.png" alt="" class="slide-bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="slide_description_wrapper">
-                                <div class="slide_description">
-                                    <div class="intro-layer">
-                                        <h3 class="bold big">
-                                            UNA BUJÍA PARA TODOS
-                                        </h3>
-                                        <p class="bold">
-                                            La familia de bujías de DENSO no tiene igual en longevidad,
-                                            durabilidad, mayor potencia, economía y confiabilidad.
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- eof .slide_description -->
-                            </div>
-                        </div>
-                        <!-- eof .col-* -->
-                    </div>
-                    <!-- eof .row -->
-                </div>
-                <!-- eof .container -->
-            </li>
         </ul>
     </div>
     <!-- eof flexslider -->
@@ -93,7 +67,7 @@
                     Nosotros
                 </h2>
                 <hr class="divider_2_30 left-important main_bg_color divider_35">
-                <a href="about.html" class="theme_button color1 topmargin_10">Mas Informacion</a>
+                <a href="{{route('acerca')}}" class="theme_button color1 topmargin_10">Mas Informacion</a>
             </div>
             <div class="col-md-6">
                 <p class="entry-excerpt highlight2 bottommargin_30">

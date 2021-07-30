@@ -1,9 +1,9 @@
-<section class="page_toplogo cs table_section table_section_md section_padding_top_30 section_padding_bottom_30">
+<section class="page_toplogo table_section table_section_md section_padding_top_30 section_padding_bottom_30" style="background-color:#FFFF">
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-lg-3 text-center text-md-left">
                 <a href="./" class="logo">
-                    <img src="./images/ici_logo.png" alt="" style="max-width: 200px">
+                    <img src="./images/LOGO_ICI.png" alt="" style="max-width: 200px">
                 </a>
             </div>
             <div class="col-md-2 col-lg-3 text-center text-md-left hidden-md">

@@ -58,9 +58,9 @@
             </div>
             <div class="col-md-6 col-lg-5 col-lg-offset-1">
                 <p>
-                    Si desea contactarnos por favor llame al siguiente numero:
+                    Si desea contactarnos por favor llame al siguiente número:
                     <span class="kanit fontsize_18 highlight bold">+52 (993) 338 20 49</span> o
-                    <a href="#" class="bold highlight underlined">envienos un correo</a>.
+                    <a href="#" class="bold highlight underlined">envíenos un correo</a>.
                 </p>
             </div>
         </div>

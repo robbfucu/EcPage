@@ -17,7 +17,7 @@
                 <img src="./images/inge.png" alt="">
             </div>
             <div class="col-md-6">
-                <p class="entry-excerpt highlight2 topmargin_40 bottommargin_30">
+                <p class="entry-excerpt highlight2 topmargin_40 bottommargin_30" style="text-align: justify">
                     <a href="">Es una compañía dedicada a la automatización de procesos
                         industriales, con amplia experiencia en instrumentación de campo.
                         Integramos a los mejores fabricantes para suministro de refaccionamiento
@@ -37,7 +37,7 @@
             </div>
         </div>
         <div class="row topmargin_10 bottommargin_30">
-            <p class="entry-excerpt highlight2 topmargin_5">
+            <p class="entry-excerpt highlight2 topmargin_5" style="text-align: justify">
                 Fundada en febrero del 2008, con la oportunidad de integrar
                 equipos industriales de alta calidad, con marcas reconocidas
                 en el mercado, diseñando sistemas autónomos eficientes para
@@ -51,7 +51,7 @@
         <hr>
         <div class="row columns_padding_0 topmargin_60">
             <div class="col-md-6 col-lg-5">
-                <p class="entry-excerpt highlight2 topmargin_5">
+                <p class="entry-excerpt highlight2 topmargin_5" style="text-align: justify">
                     Siempre estamos interesados ​​en nuevos proyectos, grandes o pequeños.
                     No dude en ponerse en contacto con nosotros en relación con su proyecto.
                 </p>

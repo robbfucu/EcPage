@@ -12,10 +12,10 @@
                             <div class="slide_description_wrapper">
                                 <div class="slide_description">
                                     <div class="intro-layer">
-                                        <h3 class="bold big">
+                                        <h3 class="bold big" style="font-size: 100px">
                                             DISEÑAMOS
                                         </h3>
-                                        <p class="bold">
+                                        <p class="bold" style="font-size: 28px">
                                             Tableros de Control para diferentes procesos,
                                             con capacidad de expansión a nuevas tecnologías
                                             en navegación web.
@@ -39,10 +39,12 @@
                             <div class="slide_description_wrapper">
                                 <div class="slide_description">
                                     <div class="intro-layer">
-                                        <h3 class="bold big">
+                                        <h3 class="bold big" style="font-size: 75px">
                                             ACTUALIZAMOS
                                         </h3>
-                                        <p class="bold">Motores de gas para mejorar su rendimiento.</p>
+                                        <p class="bold" style="font-size: 28px">
+                                        Motores de gas para mejorar su rendimiento.
+                                        </p>
                                     </div>
                                 </div>
                                 <!-- eof .slide_description -->

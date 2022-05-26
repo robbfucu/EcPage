@@ -1,0 +1,33 @@
+version: "7.3"
+services:
+  cli:
+    build: cli
+    volumes:
+      - ./../:/var/www/html
+      - ./php/php.ini:/usr/local/etc/php/php.ini
+      - ~/.ssh/known_hosts:/root/.ssh/known_hosts
+      - ${SSH_AUTH_SOCK}:/ssh-auth.sock
+    user: www-data
+    working_dir: /var/www/html
+    networks:
+      - laravel-devkit
+    env_file:
+      - ./.env
+  http:
+    build: http
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./../:/var/www/html
+      - ./php/php.ini:/usr/local/etc/php/php.ini
+      - ./http/conf/000-default.conf:/etc/apache2/sites-available/000-default.conf
+    networks:
+      laravel-devkit:
+        aliases:
+          - laravel.local
+    env_file:
+      - ./.env
+networks:
+  laravel-devkit:
+    driver: bridge

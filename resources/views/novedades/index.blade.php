@@ -13,7 +13,30 @@
 
 <section class="cs main_color2 section_padding_top_145 section_padding_bottom_125 columns_margin_bottom_30">
     <div class="container">
-        <div class="row">
+            <div class="col-sm-6 col-lg-3">
+                <article class="vertical-item content-padding ls with_bottom_border">
+                    <div class="item-media">
+                        <img src="{{ asset('images/merida.jpg') }}" alt="">
+                        <div class="media-links">
+                            <div class="links-wrap">
+                                <a class="p-link" title="" href="{{ route('novedades.merida') }}"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-content" style="hyphens: auto;">
+                        <div class="categories-links small-text big-spacing">
+                            <a href="#">Controladores</a>
+                        </div>
+                        <h3 class="entry-title">
+                            <a href="{{ route('novedades.merida') }}">Nos exandimos para brindarte una mejor atención</a>
+                        </h3>
+                        <p style="color: #9B9290; font-weight: bold; text-align: justify;">
+                            Mérida! Próximamente podrás contactarte con nosotros a través de nuestra oficina virtual.
+                        </p>
+                    </div>
+                </article>
+            </div>
+
             <div class="col-sm-6 col-lg-3">
                 <article class="vertical-item content-padding ls with_bottom_border">
                     <div class="item-media">
@@ -87,6 +110,7 @@
                     </div>
                 </article>
             </div>
+
             <div class="col-sm-6 col-lg-3">
                 <article class="vertical-item content-padding ls with_bottom_border">
                     <div class="item-media">

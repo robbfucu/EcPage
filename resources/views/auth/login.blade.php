@@ -2,11 +2,11 @@
 
 @section('content')
 <div class="container"  style="padding-bottom: 200px">
-<section class="page_breadcrumbs ls ms ms_dark section_padding_25">
-    <div class="row justify-content-center">
+<section class="page_breadcrumbs ls ms ms_dark">
+    <div class="row">
         <div class="col-md-8">
             <div class="card">
-            <section class="page_breadcrumbs ls ms ms_dark section_padding_25">
+            <section class="page_breadcrumbs ls ms ms_dark">
             <div class="col-sm-12 text-center">
                 <h1 class="bold bottommargin_5">Login</h1>
             </div>
@@ -14,11 +14,11 @@
 
                 <div class="card-body">
 
-                    <form method="POST" action="{{ route('login') }}">
+                    <form method="POST" action="{{ route('login') }}" style="margin-left: 280px">
                         @csrf
 
                         <div class="row mb-3">
-                            <label for="email" class="col-md-4 col-form-label text-md-end text-center" style="color: #30355d">{{ __('Email') }}</label>
+                            <label for="email" class="col-md-4 col-form-label text-md-end text-center" style="color: #30355d    ">{{ __('Email') }}</label>
 
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
@@ -45,7 +45,7 @@
                             </div>
                         </div>
 
-                        <div class="row mb-3" style="padding-left: 100px">
+                        <div class="row mb-3" style="padding-left:50px">
                             <div class="col-md-6 offset-md-4">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
@@ -57,8 +57,8 @@
                             </div>
                         </div>
 
-                        <div class="row mb-0"  style="padding-left: 100px">
-                            <div class="col-md-8 offset-md-4">
+                        <div class="row mb-0">
+                            <div class="col-md-8 offset-md-4 " style= "width: 100%">
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Iniciar Sesión') }}
                                 </button>

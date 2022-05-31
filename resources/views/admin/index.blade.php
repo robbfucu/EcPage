@@ -61,12 +61,9 @@
             -webkit-overflow-scrolling: touch;
         }
     </style>
-
-
 </head>
 
 <body>
-
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="bootstrap" viewBox="0 0 118 94">
             <title>Bootstrap</title>
@@ -198,14 +195,13 @@
         </div>
 
         <div class="b-example-divider b-example-vr"></div>
-        <div class="container">
-            <h1>App</h1>
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <h1>App</h1>
+            </div>
         </div>
     </main>
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>

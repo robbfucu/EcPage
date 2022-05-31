@@ -2,15 +2,14 @@
 
 @section('content')
 <div class="container"  style="padding-bottom: 200px">
-<section class="page_breadcrumbs ls ms ms_dark">
-    <div class="row">
-        <div class="col-md-8">
-            <div class="card">
-            <section class="page_breadcrumbs ls ms ms_dark">
-            <div class="col-sm-12 text-center">
-                <h1 class="bold bottommargin_5">Login</h1>
-            </div>
-    </section>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                <section class="page_breadcrumbs ls ms ms_dark">
+                    <div class="col-sm-12 text-center">
+                        <h1 class="bold bottommargin_5">Login</h1>
+                    </div>
+                </section>
 
                 <div class="card-body">
 

@@ -6,6 +6,8 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends \
     git
 
+RUN docker-php-ext-install -j$(nproc) pdo_mysql
+
 ENV APACHE_DOCUMENT_ROOT /var/www/html/public
 
 WORKDIR /var/www/html

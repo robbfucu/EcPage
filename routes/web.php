@@ -4,6 +4,7 @@ use App\Mail\ContactoMail;
 use App\Models\Aplicacion;
 use App\Models\Marca;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
@@ -71,3 +72,10 @@ Route::get('/gallery-single.html', function () {
 Route::get('/carrera-profesional', function () {
     return view('carrera-profesional');
 })->name('carrera-profesional');
+
+Auth::routes();
+
+Route::prefix('admin')->group(function() {
+    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+});
+

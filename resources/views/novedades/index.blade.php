@@ -19,7 +19,11 @@
                         <img src="./images/merida.jpg" alt="">
                         <div class="media-links">
                             <div class="links-wrap">
+<<<<<<< HEAD
                                 <a class="p-link" title="" href="{{route('novedades.show', 'test')}}"></a>
+=======
+                                <a class="p-link" title="" href="{{ route('novedades.merida') }}"></a>
+>>>>>>> edc17d0ad6072ff6c9f303f9679187f40d7b96c6
                             </div>
                         </div>
                     </div>
@@ -28,7 +32,11 @@
                             <a href="#">Controladores</a>
                         </div>
                         <h3 class="entry-title">
+<<<<<<< HEAD
                             <a href="{{route('novedades.show', 'test')}}">Nos exandimos para brindarte una mejor atención</a>
+=======
+                            <a href="{{ route('novedades.merida') }}">Nos exandimos para brindarte una mejor atención</a>
+>>>>>>> edc17d0ad6072ff6c9f303f9679187f40d7b96c6
                         </h3>
                         <p style="color: #9B9290; font-weight: bold; text-align: justify;">
                             Mérida! Próximamente podrás contactarte con nosotros a través de nuestra oficina virtual.

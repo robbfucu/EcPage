@@ -13,7 +13,38 @@
 
 <section class="cs main_color2 section_padding_top_145 section_padding_bottom_125 columns_margin_bottom_30">
     <div class="container">
-        <div class="row">
+            <div class="col-sm-6 col-lg-3">
+                <article class="vertical-item content-padding ls with_bottom_border">
+                    <div class="item-media">
+                        <img src="./images/merida.jpg" alt="">
+                        <div class="media-links">
+                            <div class="links-wrap">
+<<<<<<< HEAD
+                                <a class="p-link" title="" href="{{route('novedades.show', 'test')}}"></a>
+=======
+                                <a class="p-link" title="" href="{{ route('novedades.merida') }}"></a>
+>>>>>>> edc17d0ad6072ff6c9f303f9679187f40d7b96c6
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-content" style="hyphens: auto;">
+                        <div class="categories-links small-text big-spacing">
+                            <a href="#">Controladores</a>
+                        </div>
+                        <h3 class="entry-title">
+<<<<<<< HEAD
+                            <a href="{{route('novedades.show', 'test')}}">Nos exandimos para brindarte una mejor atención</a>
+=======
+                            <a href="{{ route('novedades.merida') }}">Nos exandimos para brindarte una mejor atención</a>
+>>>>>>> edc17d0ad6072ff6c9f303f9679187f40d7b96c6
+                        </h3>
+                        <p style="color: #9B9290; font-weight: bold; text-align: justify;">
+                            Mérida! Próximamente podrás contactarte con nosotros a través de nuestra oficina virtual.
+                        </p>
+                    </div>
+                </article>
+            </div>
+
             <div class="col-sm-6 col-lg-3">
                 <article class="vertical-item content-padding ls with_bottom_border">
                     <div class="item-media">
@@ -87,6 +118,7 @@
                     </div>
                 </article>
             </div>
+
             <div class="col-sm-6 col-lg-3">
                 <article class="vertical-item content-padding ls with_bottom_border">
                     <div class="item-media">

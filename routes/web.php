@@ -59,6 +59,10 @@ Route::prefix('novedades')->group(function () {
         return view('novedades.index');
     })->name('novedades.index');
 
+    Route::get('merida', function () {
+        return view('novedades.merida');
+    })->name('novedades.merida');
+
     Route::get('{slug}', function () {
         return view('novedades.show');
     })->name('novedades.show');
